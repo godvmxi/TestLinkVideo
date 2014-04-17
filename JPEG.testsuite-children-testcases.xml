@@ -18,7 +18,51 @@
 	<preconditions><![CDATA[]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5编译JPEG工程（VDEC），生成AXF二进制文件（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
 
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用FPGA板子导入AXF文件，执行代码（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	搜索报告文件中与输出文件一致的文件，查看报告结果</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
 </testcase>
 
 <testcase internalid="693" name="JPEG CASE 2">
@@ -39,7 +83,51 @@
 	<preconditions><![CDATA[]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5编译JPEG工程（VDEC），生成AXF二进制文件（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
 
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用FPGA板子导入AXF文件，执行代码（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	搜索报告文件中与输出文件一致的文件，查看报告结果</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
 </testcase>
 
 <testcase internalid="691" name="JPEG CASE 3">
@@ -60,7 +148,51 @@
 	<preconditions><![CDATA[]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5编译JPEG工程（VDEC），生成AXF二进制文件（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
 
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用FPGA板子导入AXF文件，执行代码（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	搜索报告文件中与输出文件一致的文件，查看报告结果</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
 </testcase>
 
 <testcase internalid="689" name="JPEG CASE 4">
@@ -81,7 +213,51 @@
 	<preconditions><![CDATA[]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5编译JPEG工程（VDEC），生成AXF二进制文件（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
 
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用FPGA板子导入AXF文件，执行代码（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	搜索报告文件中与输出文件一致的文件，查看报告结果</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
 </testcase>
 
 <testcase internalid="687" name="JPEG CASE 5">
@@ -102,7 +278,51 @@
 	<preconditions><![CDATA[]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5编译JPEG工程（VDEC），生成AXF二进制文件（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
 
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用FPGA板子导入AXF文件，执行代码（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	搜索报告文件中与输出文件一致的文件，查看报告结果</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
 </testcase>
 
 <testcase internalid="685" name="JPEG CASE 6">
@@ -123,7 +343,51 @@
 	<preconditions><![CDATA[]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5编译JPEG工程（VDEC），生成AXF二进制文件（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
 
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用FPGA板子导入AXF文件，执行代码（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	搜索报告文件中与输出文件一致的文件，查看报告结果</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
 </testcase>
 
 <testcase internalid="683" name="JPEG CASE 7">
@@ -144,7 +408,51 @@
 	<preconditions><![CDATA[]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5编译JPEG工程（VDEC），生成AXF二进制文件（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
 
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用FPGA板子导入AXF文件，执行代码（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	搜索报告文件中与输出文件一致的文件，查看报告结果</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
 </testcase>
 
 <testcase internalid="681" name="JPEG CASE 8">
@@ -165,7 +473,51 @@
 	<preconditions><![CDATA[]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5编译JPEG工程（VDEC），生成AXF二进制文件（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
 
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用FPGA板子导入AXF文件，执行代码（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	搜索报告文件中与输出文件一致的文件，查看报告结果</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
 </testcase>
 
 <testcase internalid="679" name="JPEG CASE 9">
@@ -186,7 +538,51 @@
 	<preconditions><![CDATA[]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5编译JPEG工程（VDEC），生成AXF二进制文件（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
 
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用FPGA板子导入AXF文件，执行代码（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	搜索报告文件中与输出文件一致的文件，查看报告结果</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
 </testcase>
 
 <testcase internalid="677" name="JPEG CASE 10">
@@ -207,7 +603,51 @@
 	<preconditions><![CDATA[]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5编译JPEG工程（VDEC），生成AXF二进制文件（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
 
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用FPGA板子导入AXF文件，执行代码（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	搜索报告文件中与输出文件一致的文件，查看报告结果</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
 </testcase>
 
 <testcase internalid="675" name="JPEG CASE 11">
@@ -228,7 +668,51 @@
 	<preconditions><![CDATA[]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5编译JPEG工程（VDEC），生成AXF二进制文件（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
 
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用FPGA板子导入AXF文件，执行代码（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	搜索报告文件中与输出文件一致的文件，查看报告结果</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
 </testcase>
 
 <testcase internalid="673" name="JPEG CASE 12">
@@ -249,7 +733,51 @@
 	<preconditions><![CDATA[]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5编译JPEG工程（VDEC），生成AXF二进制文件（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
 
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用FPGA板子导入AXF文件，执行代码（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	搜索报告文件中与输出文件一致的文件，查看报告结果</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
 </testcase>
 
 <testcase internalid="671" name="JPEG CASE 13">
@@ -270,7 +798,51 @@
 	<preconditions><![CDATA[]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5编译JPEG工程（VDEC），生成AXF二进制文件（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
 
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用FPGA板子导入AXF文件，执行代码（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	搜索报告文件中与输出文件一致的文件，查看报告结果</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
 </testcase>
 
 <testcase internalid="669" name="JPEG CASE 14">
@@ -291,7 +863,51 @@
 	<preconditions><![CDATA[]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5编译JPEG工程（VDEC），生成AXF二进制文件（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
 
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用FPGA板子导入AXF文件，执行代码（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	搜索报告文件中与输出文件一致的文件，查看报告结果</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
 </testcase>
 
 <testcase internalid="667" name="JPEG CASE 15">
@@ -312,7 +928,51 @@
 	<preconditions><![CDATA[]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5编译JPEG工程（VDEC），生成AXF二进制文件（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
 
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用FPGA板子导入AXF文件，执行代码（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	搜索报告文件中与输出文件一致的文件，查看报告结果</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
 </testcase>
 
 <testcase internalid="665" name="JPEG CASE 16">
@@ -333,7 +993,51 @@
 	<preconditions><![CDATA[]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5编译JPEG工程（VDEC），生成AXF二进制文件（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
 
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用FPGA板子导入AXF文件，执行代码（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	搜索报告文件中与输出文件一致的文件，查看报告结果</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
 </testcase>
 
 <testcase internalid="663" name="JPEG CASE 17">
@@ -354,7 +1058,51 @@
 	<preconditions><![CDATA[]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5编译JPEG工程（VDEC），生成AXF二进制文件（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
 
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用FPGA板子导入AXF文件，执行代码（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	搜索报告文件中与输出文件一致的文件，查看报告结果</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
 </testcase>
 
 <testcase internalid="661" name="JPEG CASE 18">
@@ -375,7 +1123,51 @@
 	<preconditions><![CDATA[]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5编译JPEG工程（VDEC），生成AXF二进制文件（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
 
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用FPGA板子导入AXF文件，执行代码（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	搜索报告文件中与输出文件一致的文件，查看报告结果</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
 </testcase>
 
 <testcase internalid="659" name="JPEG CASE 19">
@@ -396,7 +1188,51 @@
 	<preconditions><![CDATA[]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5编译JPEG工程（VDEC），生成AXF二进制文件（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
 
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用FPGA板子导入AXF文件，执行代码（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	搜索报告文件中与输出文件一致的文件，查看报告结果</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
 </testcase>
 
 <testcase internalid="657" name="JPEG CASE 20">
@@ -417,7 +1253,51 @@
 	<preconditions><![CDATA[]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5编译JPEG工程（VDEC），生成AXF二进制文件（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
 
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用FPGA板子导入AXF文件，执行代码（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	搜索报告文件中与输出文件一致的文件，查看报告结果</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
 </testcase>
 
 <testcase internalid="655" name="JPEG CASE 21">
@@ -438,7 +1318,51 @@
 	<preconditions><![CDATA[]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5编译JPEG工程（VDEC），生成AXF二进制文件（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
 
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用FPGA板子导入AXF文件，执行代码（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	搜索报告文件中与输出文件一致的文件，查看报告结果</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
 </testcase>
 
 <testcase internalid="653" name="JPEG CASE 22">
@@ -459,7 +1383,51 @@
 	<preconditions><![CDATA[]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5编译JPEG工程（VDEC），生成AXF二进制文件（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
 
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用FPGA板子导入AXF文件，执行代码（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	搜索报告文件中与输出文件一致的文件，查看报告结果</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
 </testcase>
 
 <testcase internalid="651" name="JPEG CASE 23">
@@ -480,7 +1448,51 @@
 	<preconditions><![CDATA[]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5编译JPEG工程（VDEC），生成AXF二进制文件（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
 
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用FPGA板子导入AXF文件，执行代码（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	搜索报告文件中与输出文件一致的文件，查看报告结果</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
 </testcase>
 
 <testcase internalid="649" name="JPEG CASE 24">
@@ -501,7 +1513,51 @@
 	<preconditions><![CDATA[]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5编译JPEG工程（VDEC），生成AXF二进制文件（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
 
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用FPGA板子导入AXF文件，执行代码（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	搜索报告文件中与输出文件一致的文件，查看报告结果</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
 </testcase>
 
 <testcase internalid="647" name="JPEG CASE 25">
@@ -522,7 +1578,51 @@
 	<preconditions><![CDATA[]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5编译JPEG工程（VDEC），生成AXF二进制文件（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
 
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用FPGA板子导入AXF文件，执行代码（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	搜索报告文件中与输出文件一致的文件，查看报告结果</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
 </testcase>
 
 <testcase internalid="645" name="JPEG CASE 26">
@@ -543,7 +1643,51 @@
 	<preconditions><![CDATA[]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5编译JPEG工程（VDEC），生成AXF二进制文件（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
 
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用FPGA板子导入AXF文件，执行代码（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	搜索报告文件中与输出文件一致的文件，查看报告结果</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
 </testcase>
 
 <testcase internalid="643" name="JPEG CASE 27">
@@ -564,7 +1708,51 @@
 	<preconditions><![CDATA[]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5编译JPEG工程（VDEC），生成AXF二进制文件（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
 
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用FPGA板子导入AXF文件，执行代码（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	搜索报告文件中与输出文件一致的文件，查看报告结果</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
 </testcase>
 
 <testcase internalid="641" name="JPEG CASE 28">
@@ -585,7 +1773,51 @@
 	<preconditions><![CDATA[]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5编译JPEG工程（VDEC），生成AXF二进制文件（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
 
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用FPGA板子导入AXF文件，执行代码（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	搜索报告文件中与输出文件一致的文件，查看报告结果</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
 </testcase>
 
 <testcase internalid="639" name="JPEG CASE 29">
@@ -606,7 +1838,51 @@
 	<preconditions><![CDATA[]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5编译JPEG工程（VDEC），生成AXF二进制文件（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
 
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用FPGA板子导入AXF文件，执行代码（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	搜索报告文件中与输出文件一致的文件，查看报告结果</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
 </testcase>
 
 <testcase internalid="637" name="JPEG CASE 30">
@@ -627,7 +1903,51 @@
 	<preconditions><![CDATA[]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5编译JPEG工程（VDEC），生成AXF二进制文件（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
 
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用FPGA板子导入AXF文件，执行代码（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	搜索报告文件中与输出文件一致的文件，查看报告结果</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
 </testcase>
 
 <testcase internalid="635" name="JPEG CASE 31">
@@ -648,7 +1968,51 @@
 	<preconditions><![CDATA[]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5编译JPEG工程（VDEC），生成AXF二进制文件（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
 
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用FPGA板子导入AXF文件，执行代码（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	搜索报告文件中与输出文件一致的文件，查看报告结果</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
 </testcase>
 
 <testcase internalid="633" name="JPEG CASE 32">
@@ -669,7 +2033,51 @@
 	<preconditions><![CDATA[]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5编译JPEG工程（VDEC），生成AXF二进制文件（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
 
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用FPGA板子导入AXF文件，执行代码（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	搜索报告文件中与输出文件一致的文件，查看报告结果</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
 </testcase>
 
 <testcase internalid="631" name="JPEG CASE 33">
@@ -690,7 +2098,51 @@
 	<preconditions><![CDATA[]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5编译JPEG工程（VDEC），生成AXF二进制文件（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
 
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用FPGA板子导入AXF文件，执行代码（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	搜索报告文件中与输出文件一致的文件，查看报告结果</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
 </testcase>
 
 <testcase internalid="629" name="JPEG CASE 34">
@@ -711,6 +2163,50 @@
 	<preconditions><![CDATA[]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5编译JPEG工程（VDEC），生成AXF二进制文件（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
 
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用FPGA板子导入AXF文件，执行代码（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	搜索报告文件中与输出文件一致的文件，查看报告结果</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
 </testcase>
 </testcases>
