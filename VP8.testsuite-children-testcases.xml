@@ -1,0 +1,4967 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcases>
+ <testcase name="CASE 1" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : encode_Tank_T80U1.m4v__mpeg4Out_yuv420Semiplanar_progressive_w320_h240.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 2" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-00-comprehensive-001.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 3" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-00-comprehensive-002.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 4" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-00-comprehensive-003.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 5" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-00-comprehensive-004.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 6" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-00-comprehensive-005.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 7" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-00-comprehensive-006.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 8" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-00-comprehensive-007.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 9" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-00-comprehensive-009.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 10" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-00-comprehensive-010.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 11" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-00-comprehensive-011.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 12" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-00-comprehensive-012.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 13" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-00-comprehensive-013.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 14" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-00-comprehensive-014.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 15" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-00-comprehensive-015.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 16" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-00-comprehensive-017.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 17" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-01-intra-1400.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 18" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-01-intra-1411.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 19" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-01-intra-1416.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 20" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-01-intra-1417.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 21" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-01-intra-1417.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 22" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-01-intra-1402.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 23" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-01-intra-1412.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 24" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-01-intra-1418.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 25" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-01-intra-1424.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 26" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-03-segmentation-1401.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 27" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-03-segmentation-1403.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 28" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-03-segmentation-1407.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 29" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-03-segmentation-1408.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 30" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-03-segmentation-1409.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 31" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-03-segmentation-1410.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 32" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-03-segmentation-1413.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 33" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-03-segmentation-1414.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 34" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-03-segmentation-1415.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 35" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-03-segmentation-1425.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 36" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-03-segmentation-1426.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 37" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-03-segmentation-1427.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 38" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-03-segmentation-1432.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 39" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-03-segmentation-1435.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 40" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-03-segmentation-1436.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 41" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-03-segmentation-1437.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 42" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-03-segmentation-1441.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 43" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-03-segmentation-1442.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 44" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-04-partitions-1404.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 45" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-04-partitions-1405.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 46" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-04-partitions-1406.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 47" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-05-sharpness-1428.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 48" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-05-sharpness-1429.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 49" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-05-sharpness-1430.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 50" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-05-sharpness-1430.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 51" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-05-sharpness-1431.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 52" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-05-sharpness-1433.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 53" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-05-sharpness-1434.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 54" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-05-sharpness-1438.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 55" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-05-sharpness-1439.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 56" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-05-sharpness-1440.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 57" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : vp80-05-sharpness-1443.ivf
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 58" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : 1_original.webp
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 59" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : 10_original.webp
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 60" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : 9_original_resize320x240.webp
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 61" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : 9_original_resize1920x1088.webp
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 62" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : 4_original_resize1280x1024.webp
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 63" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : 4_original_resize1024x800.webp
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 64" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : 4_original_resize1024x600.webp
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 65" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : 4_original_resize800x600.webp
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 66" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : 4_original_resize600x800.webp
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 67" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : 4_original_resize720x576.webp
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 68" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : 4_original_resize640x480.webp
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 69" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : 4_original_resize400x300.webp
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 70" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : 4_original_resize300x400.webp
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 70" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : 4_original_resize240x200.webp
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 70" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : 4_original_resize200x400.webp
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="CASE 70" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : 4_original_resize160x120.webp
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+</testcases>
