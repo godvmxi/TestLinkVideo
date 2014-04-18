@@ -1,0 +1,1734 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testcases>
+<testcase internalid="4722" name="INPUT FROMAT 1">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[327]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>
+	MPEG4解码测试</p>
+<p>
+	InputFile 1 :mpeg4_s1_48x48_xx2.es</p>
+<p>
+	ConfigFile 1 :mpeg4_s1_48x48_xx2.cfg</p>
+<p>
+	InputDetail :</p>
+<p>
+	OutputFile 1:mpeg4_case_inputformat_mpeg4_s1_48x48_xx2.yuv</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（只需第一次进入MPEG4 tset case）</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	测试完成后，运行vdec目录下的auto_report.py生成测试结果vdec_report_time.log</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	检查log文件，搜索查看输出文件状态</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="4728" name="INPUT FROMAT 2">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[328]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>
+	MPEG4解码测试</p>
+<p>
+	InputFile 1 :mpeg4_s1_1920x1088_japan4s.es</p>
+<p>
+	ConfigFile 1 :mpeg4_s1_1920x1088_japan4s.cfg</p>
+<p>
+	InputDetail :</p>
+<p>
+	OutputFile 1:mpeg4_case_inputformat_mpeg4_s1_1920x1088_japan4s.yuv</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（只需第一次进入MPEG4 tset case）</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	测试完成后，运行vdec目录下的auto_report.py生成测试结果vdec_report_time.log</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	检查log文件，搜索查看输出文件状态</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="4734" name="INPUT FROMAT 3">
+	<node_order><![CDATA[2]]></node_order>
+	<externalid><![CDATA[329]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>
+	MPEG4解码测试</p>
+<p>
+	InputFile 1 :mpeg4_SP_L1.0_P_952F_25fps_88x72.m4v</p>
+<p>
+	ConfigFile 1 :mpeg4_SP_L1.0_P_952F_25fps_88x72.cfg</p>
+<p>
+	InputDetail :</p>
+<p>
+	OutputFile 1:mpeg4_case_inputformat_mpeg4_SP_L1.0_P_952F_25fps_88x72.yuv</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（只需第一次进入MPEG4 tset case）</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	测试完成后，运行vdec目录下的auto_report.py生成测试结果vdec_report_time.log</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	检查log文件，搜索查看输出文件状态</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="4740" name="INPUT FROMAT 4">
+	<node_order><![CDATA[3]]></node_order>
+	<externalid><![CDATA[330]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>
+	MPEG4解码测试</p>
+<p>
+	InputFile 1 :MP4_ASP_L5.0_P_10F_7fps_w1920_h1088.m4v</p>
+<p>
+	ConfigFile 1 :MP4_ASP_L5.0_P_10F_7fps_w1920_h1088.cfg</p>
+<p>
+	InputDetail :</p>
+<p>
+	OutputFile 1:mpeg4_case_inputformat_MP4_ASP_L5.0_P_10F_7fps_w1920_h1088.yuv</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（只需第一次进入MPEG4 tset case）</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	测试完成后，运行vdec目录下的auto_report.py生成测试结果vdec_report_time.log</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	检查log文件，搜索查看输出文件状态</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="4746" name="INPUT FROMAT DIVX">
+	<node_order><![CDATA[4]]></node_order>
+	<externalid><![CDATA[351]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>
+	MPEG4解码测试</p>
+<p>
+	InputFile 1 :divx_352x288_simplestreamingvideol1.es</p>
+<p>
+	ConfigFile 1 :divx_352x288_simplestreamingvideol1.es</p>
+<p>
+	InputDetail :</p>
+<p>
+	OutputFile 1:mpeg4_case_inputformat_divx_352x288_simplestreamingvideol1.yuv</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（只需第一次进入MPEG4 tset case）</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	测试完成后，运行vdec目录下的auto_report.py生成测试结果vdec_report_time.log</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	检查log文件，搜索查看输出文件状态</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="4752" name="INPUT FROMAT XVID">
+	<node_order><![CDATA[5]]></node_order>
+	<externalid><![CDATA[352]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>
+	MPEG4解码测试</p>
+<p>
+	InputFile 1 :xvid_1920x1080_ganges_2008_sample.es</p>
+<p>
+	ConfigFile 1 :xvid_1920x1080_ganges_2008_sample.cfg</p>
+<p>
+	InputDetail :</p>
+<p>
+	OutputFile 1:mpeg4_case_inputformat_xvid_1920x1080_ganges_2008_sample.yuv</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（只需第一次进入MPEG4 tset case）</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	测试完成后，运行vdec目录下的auto_report.py生成测试结果vdec_report_time.log</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	检查log文件，搜索查看输出文件状态</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="4758" name="INPUT FROMAT SORENSONSPARK">
+	<node_order><![CDATA[6]]></node_order>
+	<externalid><![CDATA[353]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>
+	MPEG4解码测试</p>
+<p>
+	InputFile 1 :sorensonspark_320x240_alice.es</p>
+<p>
+	ConfigFile 1 :sorensonspark_320x240_alice.cfg</p>
+<p>
+	InputDetail :</p>
+<p>
+	OutputFile 1:mpeg4_case_inputformat_sorensonspark_320x240_alice.yuv</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（只需第一次进入MPEG4 tset case）</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	测试完成后，运行vdec目录下的auto_report.py生成测试结果vdec_report_time.log</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	检查log文件，搜索查看输出文件状态</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="4764" name="INPUT FROMAT H263 1">
+	<node_order><![CDATA[7]]></node_order>
+	<externalid><![CDATA[354]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>
+	MPEG4解码测试</p>
+<p>
+	InputFile 1 :H263_b_L30_P_181F_30fps_w352h288.vid</p>
+<p>
+	ConfigFile 1 :H263_b_L30_P_181F_30fps_w352h288.cfg</p>
+<p>
+	InputDetail :</p>
+<p>
+	OutputFile 1:mpeg4_case_inputformat_H263_b_L30_P_181F_30fps_w352h288.yuv</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（只需第一次进入MPEG4 tset case）</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	测试完成后，运行vdec目录下的auto_report.py生成测试结果vdec_report_time.log</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	检查log文件，搜索查看输出文件状态</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="4770" name="INPUT FROMAT H263 2">
+	<node_order><![CDATA[8]]></node_order>
+	<externalid><![CDATA[359]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>
+	MPEG4解码测试</p>
+<p>
+	InputFile 1 :H263_b_L20_P_120F_30fps_w128h96.vid</p>
+<p>
+	ConfigFile 1 :H263_b_L20_P_120F_30fps_w128h96.cfg</p>
+<p>
+	InputDetail :</p>
+<p>
+	OutputFile 1:mpeg4_case_inputformat_H263_b_L20_P_120F_30fps_w128h96.yuv</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（只需第一次进入MPEG4 tset case）</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	测试完成后，运行vdec目录下的auto_report.py生成测试结果vdec_report_time.log</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	检查log文件，搜索查看输出文件状态</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="4776" name="INPUT FROMAT H263 3">
+	<node_order><![CDATA[9]]></node_order>
+	<externalid><![CDATA[360]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>
+	MPEG4解码测试</p>
+<p>
+	InputFile 1 :H263_b_L70_P_572F_30fps_w704_h576.vid</p>
+<p>
+	ConfigFile 1 :H263_b_L70_P_572F_30fps_w704_h576.cfg</p>
+<p>
+	InputDetail :</p>
+<p>
+	OutputFile 1:mpeg4_case_inputformat_H263_b_L70_P_572F_30fps_w704_h576.yuv</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（只需第一次进入MPEG4 tset case）</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	测试完成后，运行vdec目录下的auto_report.py生成测试结果vdec_report_time.log</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	检查log文件，搜索查看输出文件状态</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="4782" name="INPUT FROMAT EXT 1">
+	<node_order><![CDATA[10]]></node_order>
+	<externalid><![CDATA[361]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>
+	MPEG4解码测试</p>
+<p>
+	InputFile 1 :mpeg4_S_L6_640x480_vpstream.es</p>
+<p>
+	ConfigFile 1 :mpeg4_S_L6_640x480_vpstream.cfg</p>
+<p>
+	InputDetail :</p>
+<p>
+	OutputFile 1:mpeg4_case_inputformat_mpeg4_S_L6_640x480_vpstream.yuv</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（只需第一次进入MPEG4 tset case）</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	测试完成后，运行vdec目录下的auto_report.py生成测试结果vdec_report_time.log</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	检查log文件，搜索查看输出文件状态</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="4788" name="INPUT FROMAT EXT 2">
+	<node_order><![CDATA[11]]></node_order>
+	<externalid><![CDATA[362]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>
+	MPEG4解码测试</p>
+<p>
+	InputFile 1 :mpeg4_S_L4_vpdpstream.es</p>
+<p>
+	ConfigFile 1 :mpeg4_S_L4_vpdpstream.cfg</p>
+<p>
+	InputDetail :</p>
+<p>
+	OutputFile 1:mpeg4_case_inputformat_mpeg4_S_L4_vpdpstream.yuv</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（只需第一次进入MPEG4 tset case）</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	测试完成后，运行vdec目录下的auto_report.py生成测试结果vdec_report_time.log</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	检查log文件，搜索查看输出文件状态</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="4794" name="INPUT FROMAT EXT 3">
+	<node_order><![CDATA[12]]></node_order>
+	<externalid><![CDATA[367]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>
+	MPEG4解码测试</p>
+<p>
+	InputFile 1 :mpeg4_S_L4_640x480_vpdprvlcstream.es</p>
+<p>
+	ConfigFile 1 :mpeg4_S_L4_640x480_vpdprvlcstream.cfg</p>
+<p>
+	InputDetail :</p>
+<p>
+	OutputFile 1:mpeg4_case_inputformat_mpeg4_S_L4_640x480_vpdprvlcstream.yuv</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（只需第一次进入MPEG4 tset case）</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	测试完成后，运行vdec目录下的auto_report.py生成测试结果vdec_report_time.log</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	检查log文件，搜索查看输出文件状态</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="4800" name="INPUT FROMAT EXT 4">
+	<node_order><![CDATA[13]]></node_order>
+	<externalid><![CDATA[368]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>
+	MPEG4解码测试</p>
+<p>
+	InputFile 1 :mpeg4_S_L4_640x480_svhstream.es</p>
+<p>
+	ConfigFile 1 :mpeg4_S_L4_640x480_svhstream.cfg</p>
+<p>
+	InputDetail :</p>
+<p>
+	OutputFile 1:mpeg4_case_inputformat_mpeg4_S_L4_640x480_svhstream.yuv</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（只需第一次进入MPEG4 tset case）</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	测试完成后，运行vdec目录下的auto_report.py生成测试结果vdec_report_time.log</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	检查log文件，搜索查看输出文件状态</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="4806" name="INPUT FROMAT DIVX EXT">
+	<node_order><![CDATA[14]]></node_order>
+	<externalid><![CDATA[369]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>
+	MPEG4解码测试</p>
+<p>
+	InputFile 1 :</p>
+<p>
+	ConfigFile 1 :</p>
+<p>
+	InputDetail :</p>
+<p>
+	OutputFile 1:</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（只需第一次进入MPEG4 tset case）</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	测试完成后，运行vdec目录下的auto_report.py生成测试结果vdec_report_time.log</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	检查log文件，搜索查看输出文件状态</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="4812" name="INPUT FROMAT XVID EXT">
+	<node_order><![CDATA[15]]></node_order>
+	<externalid><![CDATA[370]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>
+	MPEG4解码测试</p>
+<p>
+	InputFile 1 :</p>
+<p>
+	ConfigFile 1 :</p>
+<p>
+	InputDetail :</p>
+<p>
+	OutputFile 1:</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（只需第一次进入MPEG4 tset case）</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	测试完成后，运行vdec目录下的auto_report.py生成测试结果vdec_report_time.log</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	检查log文件，搜索查看输出文件状态</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="4818" name="INPUT FORMAT H263 EXT">
+	<node_order><![CDATA[16]]></node_order>
+	<externalid><![CDATA[371]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>
+	MPEG4解码测试</p>
+<p>
+	InputFile 1 :h263_640x480_xiaoyu.es</p>
+<p>
+	ConfigFile 1 :h263_640x480_xiaoyu.cfg</p>
+<p>
+	InputDetail :</p>
+<p>
+	OutputFile 1:mpeg4_case_inputformat_h263_640x480_xiaoyu.yuv</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（只需第一次进入MPEG4 tset case）</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	测试完成后，运行vdec目录下的auto_report.py生成测试结果vdec_report_time.log</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	检查log文件，搜索查看输出文件状态</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="4824" name="INPUT FORMAT SORENSONSPARK EXT">
+	<node_order><![CDATA[17]]></node_order>
+	<externalid><![CDATA[372]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>
+	MPEG4解码测试</p>
+<p>
+	InputFile 1 :</p>
+<p>
+	ConfigFile 1 :</p>
+<p>
+	InputDetail :</p>
+<p>
+	OutputFile 1:</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（只需第一次进入MPEG4 tset case）</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	测试完成后，运行vdec目录下的auto_report.py生成测试结果vdec_report_time.log</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	检查log文件，搜索查看输出文件状态</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="4836" name="DECODING SHEME PACKAGE BY PACKAGE">
+	<node_order><![CDATA[18]]></node_order>
+	<externalid><![CDATA[374]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>
+	MPEG4解码测试</p>
+<p>
+	InputFile 1 :</p>
+<p>
+	ConfigFile 1 :</p>
+<p>
+	InputDetail :</p>
+<p>
+	OutputFile 1:</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（只需第一次进入MPEG4 tset case）</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	测试完成后，运行vdec目录下的auto_report.py生成测试结果vdec_report_time.log</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	检查log文件，搜索查看输出文件状态</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="4842" name="DECODING SHEMEFIELD BY FIELD">
+	<node_order><![CDATA[19]]></node_order>
+	<externalid><![CDATA[453]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>
+	MPEG4解码测试</p>
+<p>
+	InputFile 1 :</p>
+<p>
+	ConfigFile 1 :</p>
+<p>
+	InputDetail :</p>
+<p>
+	OutputFile 1:</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（只需第一次进入MPEG4 tset case）</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	测试完成后，运行vdec目录下的auto_report.py生成测试结果vdec_report_time.log</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	检查log文件，搜索查看输出文件状态</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="4830" name="INPUT STREAM SKIP">
+	<node_order><![CDATA[20]]></node_order>
+	<externalid><![CDATA[373]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>
+	MPEG4解码测试</p>
+<p>
+	InputFile 1 :mpeg4_streamingvideo_720x576_mp4adv.es</p>
+<p>
+	ConfigFile 1 :mpeg4_streamingvideo_720x576_mp4adv.cfg</p>
+<p>
+	InputDetail :</p>
+<p>
+	OutputFile 1:mpeg4_case_inputstreamskip_mpeg4_streamingvideo_720x576_mp4adv.yuv</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（只需第一次进入MPEG4 tset case）</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	测试完成后，运行vdec目录下的auto_report.py生成测试结果vdec_report_time.log</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	检查log文件，搜索查看输出文件状态</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="4848" name="DEC SMOOTHING DISPLAY">
+	<node_order><![CDATA[21]]></node_order>
+	<externalid><![CDATA[454]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>
+	MPEG4解码测试</p>
+<p>
+	InputFile 1 :mpeg4_streamingvideo_720x576_mp4adv.es</p>
+<p>
+	ConfigFile 1 :mpeg4_streamingvideo_720x576_mp4adv_smoothing_display.cfg</p>
+<p>
+	InputDetail :</p>
+<p>
+	OutputFile 1:mpeg4_case_decsmoothing_mpeg4_streamingvideo_720x576_mp4adv_smoothing_display.yuv</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（只需第一次进入MPEG4 tset case）</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	测试完成后，运行vdec目录下的auto_report.py生成测试结果vdec_report_time.log</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	检查log文件，搜索查看输出文件状态</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="4854" name="OUTPUT FORMAT">
+	<node_order><![CDATA[22]]></node_order>
+	<externalid><![CDATA[455]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>
+	MPEG4解码测试</p>
+<p>
+	InputFile 1 :</p>
+<p>
+	ConfigFile 1 :</p>
+<p>
+	InputDetail :</p>
+<p>
+	OutputFile 1:</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（只需第一次进入MPEG4 tset case）</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	测试完成后，运行vdec目录下的auto_report.py生成测试结果vdec_report_time.log</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	检查log文件，搜索查看输出文件状态</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="4860" name="DEC TOOLS">
+	<node_order><![CDATA[23]]></node_order>
+	<externalid><![CDATA[456]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>
+	MPEG4解码测试</p>
+<p>
+	InputFile 1 :xvid_1920x1080_ganges_2008_sample.es</p>
+<p>
+	ConfigFile 1 :xvid_1616x302_ganges_2008_sample_combined_pp.yuv</p>
+<p>
+	InputDetail :</p>
+<p>
+	OutputFile 1:mpeg4_case_dectools_xvid_1920x1080_ganges_2008_sample_combined_pp_640x480.yuv</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（只需第一次进入MPEG4 tset case）</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	测试完成后，运行vdec目录下的auto_report.py生成测试结果vdec_report_time.log</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	检查log文件，搜索查看输出文件状态</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="4866" name="DEC WITH DEBLOCKING 1">
+	<node_order><![CDATA[24]]></node_order>
+	<externalid><![CDATA[331]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（只需第一次进入MPEG4 tset case）</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	测试完成后，运行vdec目录下的auto_report.py生成测试结果vdec_report_time.log</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	检查log文件，搜索查看输出文件状态</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="4872" name="DEC WITH DEBLOCKING 2">
+	<node_order><![CDATA[25]]></node_order>
+	<externalid><![CDATA[332]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>
+	MPEG4解码测试</p>
+<p>
+	InputFile 1 :</p>
+<p>
+	ConfigFile 1 :</p>
+<p>
+	InputDetail :</p>
+<p>
+	OutputFile 1:</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testcases>
