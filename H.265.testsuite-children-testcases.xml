@@ -549,7 +549,7 @@
 <p>
 	InputDetail :</p>
 <p>
-	OutputFile 1:h265_case_inputsize_vga_h265_B_L5.1_P_501F_25fps_w640_h480_nal.yuV</p>
+	OutputFile 1:h265_case_inputsize_vga_h265_B_L5.1_P_501F_25fps_w640_h480_nal.yuv</p>
 ]]></summary>
 	<preconditions><![CDATA[]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
