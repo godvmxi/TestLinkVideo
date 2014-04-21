@@ -1,6 +1,267 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <testcases>
- <testcase name="CASE 1" internalid="4980">
+ <testcaseg name="ENCODING BYTESTREAM FORMAT" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : yuv420Semiplanar_progressive_w320_h240.yuv
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:h264_w320_h240_testcase_encoding_bytestream_format.h264
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcaseg>
+ <testcase name="ENCODING NAL FORMAT" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : yuv420Semiplanar_progressive_w320_h240.yuv
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:h264_w320_h240_testcase_encoding_nal_format.h264
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="ENCODING LEVEL 1" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : yuv420Semiplanar_progressive_w320_h240.yuv
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:h264_w320_h240_testcase_encoding_level1_format.h264
+</p>
+
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="ENCODING LEVEL 1 B" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	VP8解码测试
+</p>
+<p>
+	InputFile 1 : yuv420Semiplanar_progressive_w320_h240.yuv
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:h264_w320_h240_testcase_encoding_level1b_format.h264
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="ENCODING LEVEL 1 1" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
@@ -68,7 +329,7 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 2" internalid="4980">
+ <testcase name="ENCODING LEVEL 1 2" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
@@ -136,7 +397,7 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 3" internalid="4980">
+ <testcase name="ENCODING LEVEL 1 3" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
@@ -204,7 +465,7 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 4" internalid="4980">
+ <testcase name="ENCODING LEVEL 2" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
@@ -272,7 +533,7 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 5" internalid="4980">
+ <testcase name="ENCODING LEVEL 2 1" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
@@ -340,7 +601,7 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 6" internalid="4980">
+ <testcase name="ENCODING LEVEL 2 2" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
@@ -408,7 +669,7 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 7" internalid="4980">
+ <testcase name="ENCODING LEVEL 3" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
@@ -476,7 +737,7 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 8" internalid="4980">
+ <testcase name="ENCODING LEVEL 3 1" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
@@ -544,7 +805,7 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 9" internalid="4980">
+ <testcase name="ENCODING LEVEL 3 2" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
@@ -612,7 +873,7 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 10" internalid="4980">
+ <testcase name="ENCODING LEVEL 4 0" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
@@ -680,7 +941,7 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 11" internalid="4980">
+ <testcase name="ENCODING LEVEL 4 1" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
@@ -748,7 +1009,7 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 12" internalid="4980">
+ <testcase name="ENCODING TARGET FRAMERATE 1" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
@@ -816,7 +1077,7 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 13" internalid="4980">
+ <testcase name="ENCODING TARGET FRAMERATE 5" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
@@ -884,7 +1145,7 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 14" internalid="4980">
+ <testcase name="ENCODING TARGET FRAMERATE 15" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
@@ -952,7 +1213,7 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 15" internalid="4980">
+ <testcase name="ENCODING TARGET FRAMERATE 23" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
@@ -1020,7 +1281,7 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 16" internalid="4980">
+ <testcase name="ENCODING TARGET FRAMERATE 30" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
@@ -1088,7 +1349,7 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 17" internalid="4980">
+ <testcase name="ENCODING TARGET FRAMERATE 60" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
@@ -1156,7 +1417,7 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 18" internalid="4980">
+ <testcase name="ENCODING CRTL SLICESIZE" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
@@ -1224,7 +1485,7 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 19" internalid="4980">
+ <testcase name="ENCODING CRTL SEIMESSAGES" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
@@ -1292,7 +1553,7 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 20" internalid="4980">
+ <testcase name="ENCODING CRTL VIDEOFULLRANGE" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
@@ -1360,7 +1621,7 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 21" internalid="4980">
+ <testcase name="ENCODING CRTL CONSTRAINEDINTRAPREDCTION" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
@@ -1428,7 +1689,7 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 22" internalid="4980">
+ <testcase name="ENCODING CRTL DISABLEEBLOCKINGFILTER" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
@@ -1496,7 +1757,7 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 23" internalid="4980">
+ <testcase name="ENCODING CRTL SAMPLEASPECTRATIO" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
@@ -1564,7 +1825,7 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 24" internalid="4980">
+ <testcase name="ENCODING CRTL ENALBECABAC" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
@@ -1632,7 +1893,7 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 25" internalid="4980">
+ <testcase name="ENCODING CRTL TRANSFROM8x8MODE" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
@@ -1700,7 +1961,7 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 26" internalid="4980">
+ <testcase name="ENCODING CRTL QUARTERPIXELMV" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
@@ -1768,7 +2029,7 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 27" internalid="4980">
+ <testcase name="ENCODING RATE CRTL CBR" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
@@ -1836,7 +2097,7 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 28" internalid="4980">
+ <testcase name="ENCODING RATE CRTL VBR PB" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
@@ -1904,7 +2165,7 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 29" internalid="4980">
+ <testcase name="ENCODING RATE CRTL VBR MB" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
@@ -1972,7 +2233,7 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 30" internalid="4980">
+ <testcase name="ENCODING RATE CRTL SKIP PIC" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
@@ -2040,7 +2301,7 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 31" internalid="4980">
+ <testcase name="ENCODING RATE CRTL HDR" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
@@ -2108,7 +2369,7 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 32" internalid="4980">
+ <testcase name="ENCODING RATE CRTL IQPDELTA" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
@@ -2176,7 +2437,7 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 33" internalid="4980">
+ <testcase name="ENCODING RATE CRTL IQIPFIXED" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
@@ -2244,7 +2505,7 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 34" internalid="4980">
+ <testcase name="ENCODING RATE CRTL MBQPADJUST" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
@@ -2312,7 +2573,7 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 35" internalid="4980">
+ <testcase name="ENCODING RATE CRTL GOPLEN" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
@@ -2380,7 +2641,7 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 36" internalid="4980">
+ <testcase name="PRE PROC SIZE" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
@@ -2448,7 +2709,7 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 37" internalid="4980">
+ <testcase name="PRE PROC FORMAT" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
@@ -2516,7 +2777,7 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 38" internalid="4980">
+ <testcase name="PRE PROC RATATION" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
@@ -2584,7 +2845,7 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 39" internalid="4980">
+ <testcase name="PRE PROC VIDEOSTABILIZATION" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
@@ -2652,143 +2913,7 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 40" internalid="4980">
-  <node_order><![CDATA[43]]></node_order>
-  <version><![CDATA[1]]></version>
-  <summary><![CDATA[<p>
-	VP8解码测试
-</p>
-<p>
-	InputFile 1 : 
-</p>
-
-	InputDetail : 
-</p>
-<p>
-	OutputFile 1:
-</p>
-<p>
-	OutputFile 2:
-</p>
-
-]]></summary>
-  <preconditions><![CDATA[]]></preconditions>
-  <execution_type><![CDATA[1]]></execution_type>
-  <importance><![CDATA[2]]></importance>
-  <steps>
-   <step>
-    <step_number><![CDATA[1]]></step_number>
-    <actions><![CDATA[<p>
-	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
-]]></actions>
-    <expectedresults><![CDATA[<p>
-	PASS</p>
-]]></expectedresults>
-    <execution_type><![CDATA[1]]></execution_type>
-   </step>
-   <step>
-    <step_number><![CDATA[2]]></step_number>
-    <actions><![CDATA[<p>
-	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
-]]></actions>
-    <expectedresults><![CDATA[<p>
-	PASS</p>
-]]></expectedresults>
-    <execution_type><![CDATA[1]]></execution_type>
-   </step>
-   <step>
-    <step_number><![CDATA[3]]></step_number>
-    <actions><![CDATA[<p>
-	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
-]]></actions>
-    <expectedresults><![CDATA[<p>
-	PASS</p>
-]]></expectedresults>
-    <execution_type><![CDATA[1]]></execution_type>
-   </step>
-   <step>
-    <step_number><![CDATA[4]]></step_number>
-    <actions><![CDATA[<p>
-	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
-<p>
-	&nbsp;</p>
-]]></actions>
-    <expectedresults><![CDATA[<p>
-	PASS</p>
-]]></expectedresults>
-    <execution_type><![CDATA[1]]></execution_type>
-   </step>
-  </steps>
- </testcase>
- <testcase name="CASE 41" internalid="4980">
-  <node_order><![CDATA[43]]></node_order>
-  <version><![CDATA[1]]></version>
-  <summary><![CDATA[<p>
-	VP8解码测试
-</p>
-<p>
-	InputFile 1 : 
-</p>
-
-	InputDetail : 
-</p>
-<p>
-	OutputFile 1:
-</p>
-<p>
-	OutputFile 2:
-</p>
-
-]]></summary>
-  <preconditions><![CDATA[]]></preconditions>
-  <execution_type><![CDATA[1]]></execution_type>
-  <importance><![CDATA[2]]></importance>
-  <steps>
-   <step>
-    <step_number><![CDATA[1]]></step_number>
-    <actions><![CDATA[<p>
-	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
-]]></actions>
-    <expectedresults><![CDATA[<p>
-	PASS</p>
-]]></expectedresults>
-    <execution_type><![CDATA[1]]></execution_type>
-   </step>
-   <step>
-    <step_number><![CDATA[2]]></step_number>
-    <actions><![CDATA[<p>
-	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
-]]></actions>
-    <expectedresults><![CDATA[<p>
-	PASS</p>
-]]></expectedresults>
-    <execution_type><![CDATA[1]]></execution_type>
-   </step>
-   <step>
-    <step_number><![CDATA[3]]></step_number>
-    <actions><![CDATA[<p>
-	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
-]]></actions>
-    <expectedresults><![CDATA[<p>
-	PASS</p>
-]]></expectedresults>
-    <execution_type><![CDATA[1]]></execution_type>
-   </step>
-   <step>
-    <step_number><![CDATA[4]]></step_number>
-    <actions><![CDATA[<p>
-	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
-<p>
-	&nbsp;</p>
-]]></actions>
-    <expectedresults><![CDATA[<p>
-	PASS</p>
-]]></expectedresults>
-    <execution_type><![CDATA[1]]></execution_type>
-   </step>
-  </steps>
- </testcase>
- <testcase name="CASE 42" internalid="4980">
+ <testcase name="PRE PROC CROP" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>

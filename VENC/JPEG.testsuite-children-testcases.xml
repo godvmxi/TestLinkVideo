@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <testcases>
- <testcase name="CASE 1" internalid="4980">
+ <testcase name="QLEVEL  L0" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
-	InputFile 1 : 
+	InputFile 1 : jpeg_w240_h240_testcase_qlevel.yuvsp
 </p>
 
 	InputDetail : 
 </p>
 <p>
-	OutputFile 1:
+	OutputFile 1:jpeg_w240_h240_testcase_qlevel_0.jpeg
 </p>
 <p>
 	OutputFile 2:
@@ -68,23 +68,20 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 2" internalid="4980">
+ <testcase name="QLEVEL  L1" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
-	InputFile 1 : 
+	InputFile 1 : jpeg_w240_h240_testcase_qlevel.yuvsp
 </p>
 
 	InputDetail : 
-</p>
-<p>
-	OutputFile 1:
 </p>
 <p>
-	OutputFile 2:
+	OutputFile 1:jpeg_w240_h240_testcase_qlevel_1.jpeg
 </p>
 
 ]]></summary>
@@ -136,23 +133,20 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 3" internalid="4980">
+ <testcase name="QLEVEL L2" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
-	InputFile 1 : 
+	InputFile 1 : jpeg_w240_h240_testcase_qlevel.yuvsp
 </p>
 
 	InputDetail : 
-</p>
-<p>
-	OutputFile 1:
 </p>
 <p>
-	OutputFile 2:
+	OutputFile 1:jpeg_w240_h240_testcase_qlevel_2.jpeg
 </p>
 
 ]]></summary>
@@ -204,23 +198,84 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 4" internalid="4980">
+ <testcase name="QLEVEL L3" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
-	InputFile 1 : 
+	InputFile 1 : jpeg_w240_h240_testcase_qlevel.yuvsp
 </p>
 
 	InputDetail : 
 </p>
 <p>
-	OutputFile 1:
+	OutputFile 1:jpeg_w240_h240_testcase_qlevel_3.jpeg
+</p>
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="QLEVEL L4" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	JPEG编码测试
 </p>
 <p>
-	OutputFile 2:
+	InputFile 1 : jpeg_w240_h240_testcase_qlevel.yuvsp
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:jpeg_w240_h240_testcase_qlevel_4.jpeg
 </p>
 
 ]]></summary>
@@ -272,20 +327,20 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 5" internalid="4980">
+ <testcase name="QLEVEL L5" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
-	InputFile 1 : 
+	InputFile 1 : jpeg_w240_h240_testcase_qlevel.yuvsp
 </p>
 
 	InputDetail : 
 </p>
 <p>
-	OutputFile 1:
+	OutputFile 1:jpeg_w240_h240_testcase_qlevel_5.jpeg
 </p>
 <p>
 	OutputFile 2:
@@ -340,23 +395,20 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 6" internalid="4980">
+ <testcase name="QLEVEL L6" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
-	InputFile 1 : 
+	InputFile 1 : jpeg_w240_h240_testcase_qlevel.yuvsp
 </p>
 
 	InputDetail : 
-</p>
-<p>
-	OutputFile 1:
 </p>
 <p>
-	OutputFile 2:
+	OutputFile 1:jpeg_w240_h240_testcase_qlevel_6.jpeg
 </p>
 
 ]]></summary>
@@ -408,23 +460,20 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 7" internalid="4980">
+ <testcase name="QLEVEL L7" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
-	InputFile 1 : 
+	InputFile 1 : jpeg_w240_h240_testcase_qlevel.yuvsp
 </p>
 
 	InputDetail : 
-</p>
-<p>
-	OutputFile 1:
 </p>
 <p>
-	OutputFile 2:
+	OutputFile 1:jpeg_w240_h240_testcase_qlevel_7.jpeg
 </p>
 
 ]]></summary>
@@ -476,25 +525,23 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 8" internalid="4980">
+ <testcase name="QLEVEL L8" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
-	InputFile 1 : 
+	InputFile 1 : jpeg_w240_h240_testcase_qlevel.yuvsp
 </p>
 
 	InputDetail : 
-</p>
-<p>
-	OutputFile 1:
 </p>
 <p>
-	OutputFile 2:
+	OutputFile 1:jpeg_w240_h240_testcase_qlevel_8.jpeg
 </p>
 
+
 ]]></summary>
   <preconditions><![CDATA[]]></preconditions>
   <execution_type><![CDATA[1]]></execution_type>
@@ -544,23 +591,20 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 9" internalid="4980">
+ <testcase name="QLEVEL L9" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
-	InputFile 1 : 
+	InputFile 1 : jpeg_w240_h240_testcase_qlevel.yuvsp
 </p>
 
 	InputDetail : 
-</p>
-<p>
-	OutputFile 1:
 </p>
 <p>
-	OutputFile 2:
+	OutputFile 1:jpeg_w240_h240_testcase_qlevel_9.jpeg
 </p>
 
 ]]></summary>
@@ -612,25 +656,23 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 10" internalid="4980">
+ <testcase name="QLEVEL L10" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
-	InputFile 1 : 
+	InputFile 1 : jpeg_w240_h240_testcase_qlevel.yuvsp
 </p>
 
 	InputDetail : 
 </p>
 <p>
-	OutputFile 1:
-</p>
-<p>
-	OutputFile 2:
+	OutputFile 1:jpeg_w240_h240_testcase_qlevel_10.jpeg
 </p>
 
+
 ]]></summary>
   <preconditions><![CDATA[]]></preconditions>
   <execution_type><![CDATA[1]]></execution_type>
@@ -680,20 +722,20 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 11" internalid="4980">
+ <testcase name="INPUT YUV420P" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
-	InputFile 1 : 
+	InputFile 1 : jpeg_w640_h480_testcase_inputformat_yuv420p.yuv
 </p>
 
 	InputDetail : 
 </p>
 <p>
-	OutputFile 1:
+	OutputFile 1:jpeg_w640_h480_testcase_inputformat_yuv420p.jpeg
 </p>
 <p>
 	OutputFile 2:
@@ -748,25 +790,23 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 12" internalid="4980">
+ <testcase name="INPUT YUV420SP" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
-	InputFile 1 : 
+	InputFile 1 : jpeg_w240_h240_testcase_inputformat_yuv420sp.yuv
 </p>
 
 	InputDetail : 
-</p>
-<p>
-	OutputFile 1:
 </p>
 <p>
-	OutputFile 2:
+	OutputFile 1:jpeg_w240_h240_testcase_inputformat_yuv420sp.jpeg
 </p>
 
+
 ]]></summary>
   <preconditions><![CDATA[]]></preconditions>
   <execution_type><![CDATA[1]]></execution_type>
@@ -816,25 +856,23 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 13" internalid="4980">
+ <testcase name="INPUT YUV422 INTERLEAVED YUYV" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
-	InputFile 1 : 
+	InputFile 1 : jpeg_w640_h480_testcase_inputformat_yuyv422.yuv
 </p>
 
 	InputDetail : 
-</p>
-<p>
-	OutputFile 1:
 </p>
 <p>
-	OutputFile 2:
+	OutputFile 1:jpeg_w640_h480_testcase_inputformat_yuyv422.jpeg
 </p>
 
+
 ]]></summary>
   <preconditions><![CDATA[]]></preconditions>
   <execution_type><![CDATA[1]]></execution_type>
@@ -884,25 +922,23 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 14" internalid="4980">
+ <testcase name="INPUT YUV422 INTERLEAVED UYVY" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
-	InputFile 1 : 
+	InputFile 1 : jpeg_w1024_h426_testcase_inputformat_uyvy422.yuv
 </p>
 
 	InputDetail : 
-</p>
-<p>
-	OutputFile 1:
 </p>
 <p>
-	OutputFile 2:
+	OutputFile 1:jpeg_w1024_h426_testcase_inputformat_uyvy422.jpeg
 </p>
 
+
 ]]></summary>
   <preconditions><![CDATA[]]></preconditions>
   <execution_type><![CDATA[1]]></execution_type>
@@ -952,25 +988,23 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 15" internalid="4980">
+ <testcase name="INPUT RGB565" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
-	InputFile 1 : 
+	InputFile 1 : jpeg_w800_h600_testcase_inputformat_rgb565.rgb
 </p>
 
 	InputDetail : 
-</p>
-<p>
-	OutputFile 1:
 </p>
 <p>
-	OutputFile 2:
+	OutputFile 1:jpeg_w800_h600_testcase_inputformat_rgb565.jpeg
 </p>
 
+
 ]]></summary>
   <preconditions><![CDATA[]]></preconditions>
   <execution_type><![CDATA[1]]></execution_type>
@@ -1020,25 +1054,87 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 16" internalid="4980">
+ <testcase name="INPUT BGR565" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
-	InputFile 1 : 
+	InputFile 1 : jpeg_w480_h384_testcase_inputformat_bgr565.rgb
 </p>
 
 	InputDetail : 
 </p>
 <p>
-	OutputFile 1:
+	OutputFile 1:jpeg_w480_h384_testcase_inputformat_bgr565.jpeg
+</p>
+
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="INPUT RGB555" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	JPEG编码测试
 </p>
 <p>
-	OutputFile 2:
+	InputFile 1 : jpeg_w1024_h576_testcase_inputformat_rgb555.rgb
 </p>
 
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:jpeg_w1024_h576_testcase_inputformat_rgb555.jpeg
+</p>
 ]]></summary>
   <preconditions><![CDATA[]]></preconditions>
   <execution_type><![CDATA[1]]></execution_type>
@@ -1088,20 +1184,20 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 17" internalid="4980">
+ <testcase name="INPUT BGR555" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
-	InputFile 1 : 
+	InputFile 1 : jpeg_w1024_h426_testcase_inputformat_bgr555.rgb
 </p>
 
 	InputDetail : 
 </p>
 <p>
-	OutputFile 1:
+	OutputFile 1:jpeg_w1024_h426_testcase_inputformat_bgr555.jpeg
 </p>
 <p>
 	OutputFile 2:
@@ -1156,23 +1252,20 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 18" internalid="4980">
+ <testcase name="INPUT RGB444" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
-	InputFile 1 : 
+	InputFile 1 : jpeg_w1024_h576_testcase_inputformat_rgb444.rgb
 </p>
 
 	InputDetail : 
-</p>
-<p>
-	OutputFile 1:
 </p>
 <p>
-	OutputFile 2:
+	OutputFile 1:jpeg_w1024_h576_testcase_inputformat_rgb444.jpeg
 </p>
 
 ]]></summary>
@@ -1224,24 +1317,22 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 19" internalid="4980">
+ <testcase name="INPUT BGR444" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
-	InputFile 1 : 
+	InputFile 1 : jpeg_w800_h600_testcase_inputformat_bgr444.rgb
 </p>
 
 	InputDetail : 
-</p>
-<p>
-	OutputFile 1:
 </p>
 <p>
-	OutputFile 2:
+	OutputFile 1:jpeg_w800_h600_testcase_inputformat_bgr444.jpeg
 </p>
+
 
 ]]></summary>
   <preconditions><![CDATA[]]></preconditions>
@@ -1292,23 +1383,20 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 20" internalid="4980">
+ <testcase name="INPUT RGB888" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
-	InputFile 1 : 
+	InputFile 1 : jpeg_w1024_h574_testcase_inputformat_rgb32.rgb
 </p>
 
 	InputDetail : 
-</p>
-<p>
-	OutputFile 1:
 </p>
 <p>
-	OutputFile 2:
+	OutputFile 1:jpeg_w1024_h574_testcase_inputformat_rgb32.jpeg
 </p>
 
 ]]></summary>
@@ -1360,25 +1448,87 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 21" internalid="4980">
+ <testcase name="INPUT BGR888" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
-	InputFile 1 : 
+	InputFile 1 : jpeg_w1024_h426_testcase_inputformat_bgr32.rgb
 </p>
 
 	InputDetail : 
 </p>
 <p>
-	OutputFile 1:
+	OutputFile 1:jpeg_w1024_h426_testcase_inputformat_bgr32.jpeg
+</p>
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="INPUT RGB101010" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	JPEG编码测试
 </p>
 <p>
-	OutputFile 2:
+	InputFile 1 : jpeg_w1024_h576_testcase_inputformat_rgb101010.rgb
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:jpeg_w1024_h576_testcase_inputformat_rgb101010.jpeg
 </p>
 
+
 ]]></summary>
   <preconditions><![CDATA[]]></preconditions>
   <execution_type><![CDATA[1]]></execution_type>
@@ -1428,25 +1578,23 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 22" internalid="4980">
+ <testcase name="INPUT BGR101010" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
-	InputFile 1 : 
+	InputFile 1 : jpeg_w1024_h576_testcase_inputformat_bgr101010.rgb
 </p>
 
 	InputDetail : 
-</p>
-<p>
-	OutputFile 1:
 </p>
 <p>
-	OutputFile 2:
+	OutputFile 1:jpeg_w1024_h576_testcase_inputformat_bgr101010.jpeg
 </p>
 
+
 ]]></summary>
   <preconditions><![CDATA[]]></preconditions>
   <execution_type><![CDATA[1]]></execution_type>
@@ -1496,23 +1644,20 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 23" internalid="4980">
+ <testcase name="INPUT ROTATE 90R" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
-	InputFile 1 : 
+	InputFile 1 : jpeg_w640_h480_testcase_input_rotation.yuv
 </p>
 
 	InputDetail : 
-</p>
-<p>
-	OutputFile 1:
 </p>
 <p>
-	OutputFile 2:
+	OutputFile 1:jpeg_w640_h480_testcase_input_rotation90R.jpeg
 </p>
 
 ]]></summary>
@@ -1564,24 +1709,22 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 24" internalid="4980">
+ <testcase name="INPUT ROTATE 90L" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
-	InputFile 1 : 
+	InputFile 1 : jpeg_w640_h480_testcase_input_rotation.yuv
 </p>
 
 	InputDetail : 
-</p>
-<p>
-	OutputFile 1:
 </p>
 <p>
-	OutputFile 2:
+	OutputFile 1:jpeg_w640_h480_testcase_input_rotation90L.jpeg
 </p>
+
 
 ]]></summary>
   <preconditions><![CDATA[]]></preconditions>
@@ -1632,20 +1775,20 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 25" internalid="4980">
+ <testcase name="INPUT CROP TOPLEFT" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
-	InputFile 1 : 
+	InputFile 1 : jpeg_w640_h480_testcase_input_cropping.yuv
 </p>
 
 	InputDetail : 
 </p>
 <p>
-	OutputFile 1:
+	OutputFile 1:jpeg_w120_h96_testcase_input_crop_top_left.jpeg
 </p>
 <p>
 	OutputFile 2:
@@ -1700,11 +1843,11 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 26" internalid="4980">
+ <testcase name="INPUT CROP TOPRIGHT" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
 	InputFile 1 : 
@@ -1768,25 +1911,23 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 27" internalid="4980">
+ <testcase name="INPUT CROP BOTTOMLEFT" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
-	InputFile 1 : 
+	InputFile 1 : jpeg_w640_h480_testcase_input_cropping.yuv
 </p>
 
 	InputDetail : 
-</p>
-<p>
-	OutputFile 1:
 </p>
 <p>
-	OutputFile 2:
+	OutputFile 1:jpeg_w120_h96_testcase_input_crop_bottom_left.jpeg
 </p>
 
+
 ]]></summary>
   <preconditions><![CDATA[]]></preconditions>
   <execution_type><![CDATA[1]]></execution_type>
@@ -1836,25 +1977,23 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 28" internalid="4980">
+ <testcase name="INPUT CROP BOTTOMRIGHT" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
-	InputFile 1 : 
+	InputFile 1 : jpeg_w640_h480_testcase_input_cropping.yuv
 </p>
 
 	InputDetail : 
-</p>
-<p>
-	OutputFile 1:
 </p>
 <p>
-	OutputFile 2:
+	OutputFile 1:jpeg_w120_h96_testcase_input_crop_bottom_right.jpeg
 </p>
 
+
 ]]></summary>
   <preconditions><![CDATA[]]></preconditions>
   <execution_type><![CDATA[1]]></execution_type>
@@ -1904,23 +2043,20 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 29" internalid="4980">
+ <testcase name="INPUT CROP MIDDLE" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
-	InputFile 1 : 
+	InputFile 1 : jpeg_w640_h480_testcase_input_cropping.yuv
 </p>
 
 	InputDetail : 
-</p>
-<p>
-	OutputFile 1:
 </p>
 <p>
-	OutputFile 2:
+	OutputFile 1:jpeg_w120_h96_testcase_input_crop_middle.jpeg
 </p>
 
 ]]></summary>
@@ -1972,23 +2108,20 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 30" internalid="4980">
+ <testcase name="INPUT MIN" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
-	InputFile 1 : 
+	InputFile 1 : jpeg_w96_h32_testcase_inputsize_yuv420sp.yuv
 </p>
 
 	InputDetail : 
-</p>
-<p>
-	OutputFile 1:
 </p>
 <p>
-	OutputFile 2:
+	OutputFile 1:jpeg_w96_h32_testcase_inputsize_min.jpeg
 </p>
 
 ]]></summary>
@@ -2040,23 +2173,20 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 31" internalid="4980">
+ <testcase name="INPUT MAX" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
-	InputFile 1 : 
+	InputFile 1 : jpeg_w8192_h8192_testcase_inputsize_yuv420sp.yuv
 </p>
 
 	InputDetail : 
-</p>
-<p>
-	OutputFile 1:
 </p>
 <p>
-	OutputFile 2:
+	OutputFile 1:jpeg_w8192_h8192_testcase_inputsize_max.jpeg
 </p>
 
 ]]></summary>
@@ -2108,11 +2238,11 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 32" internalid="4980">
+ <testcase name="INPUT MINW MAXH" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
 	InputFile 1 : 
@@ -2176,11 +2306,11 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 33" internalid="4980">
+ <testcase name="INPUT MAXW MINH" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
 	InputFile 1 : 
@@ -2244,11 +2374,11 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 34" internalid="4980">
+ <testcase name="INPUT 16W" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
 	InputFile 1 : 
@@ -2312,11 +2442,11 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 35" internalid="4980">
+ <testcase name="INPUT NOT 16W" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
 	InputFile 1 : 
@@ -2380,11 +2510,11 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 36" internalid="4980">
+ <testcase name="INPUT 2H" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
 	InputFile 1 : 
@@ -2448,11 +2578,11 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 37" internalid="4980">
+ <testcase name="INPUT NOT2H" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
 	InputFile 1 : 
@@ -2516,24 +2646,85 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 38" internalid="4980">
+ <testcase name="INPUT SUB QCIF" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
-	InputFile 1 : 
+	InputFile 1 : jpeg_w128_h96_testcase_inputsize_yuv420sp.yuv
 </p>
 
 	InputDetail : 
 </p>
 <p>
-	OutputFile 1:
+	OutputFile 1:jpeg_w128_h96_testcase_inputsize_subqcif.jpeg
+</p>
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="INPUT QQVGA" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	JPEG编码测试
 </p>
 <p>
-	OutputFile 2:
+	InputFile 1 : jpeg_w160_h120_testcase_inputsize_yuv420sp.yuv
+</p>
+
+	InputDetail : 
 </p>
+<p>
+	OutputFile 1:jpeg_w160_h120_testcase_inputsize_qqvga.jpeg
+</p>
 
 ]]></summary>
   <preconditions><![CDATA[]]></preconditions>
@@ -2584,11 +2775,11 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 39" internalid="4980">
+ <testcase name="INPUT QCIF" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
 	InputFile 1 : 
@@ -2652,11 +2843,11 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 40" internalid="4980">
+ <testcase name="INPUT QVGA" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
 	InputFile 1 : 
@@ -2720,11 +2911,11 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 41" internalid="4980">
+ <testcase name="INPUT CIF" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
 	InputFile 1 : 
@@ -2788,25 +2979,23 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 42" internalid="4980">
+ <testcase name="INPUT VGA" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
-	InputFile 1 : 
+	InputFile 1 : jpeg_w640_h480_testcase_inputsize_rgb565.rgb
 </p>
 
 	InputDetail : 
-</p>
-<p>
-	OutputFile 1:
 </p>
 <p>
-	OutputFile 2:
+	OutputFile 1:jpeg_w640_h480_testcase_inputsize_vga.jpeg
 </p>
 
+
 ]]></summary>
   <preconditions><![CDATA[]]></preconditions>
   <execution_type><![CDATA[1]]></execution_type>
@@ -2856,11 +3045,11 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 43" internalid="4980">
+ <testcase name="INPUT PAL" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
 	InputFile 1 : 
@@ -2924,11 +3113,11 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 44" internalid="4980">
+ <testcase name="INPUT SVGA" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
 	InputFile 1 : 
@@ -2992,11 +3181,11 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 45" internalid="4980">
+ <testcase name="INPUT XVGA" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
 	InputFile 1 : 
@@ -3060,23 +3249,20 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 46" internalid="4980">
+ <testcase name="INPUT 720P" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
-	InputFile 1 : 
+	InputFile 1 : jpeg_w1280_h720_testcase_inputsize_yuv420sp.yuv
 </p>
 
 	InputDetail : 
 </p>
 <p>
-	OutputFile 1:
-</p>
-<p>
-	OutputFile 2:
+	OutputFile 1:jpeg_w1280_h720_testcase_inputsize_720p.jpeg
 </p>
 
 ]]></summary>
@@ -3128,11 +3314,11 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 47" internalid="4980">
+ <testcase name="INPUT XSGA" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
 	InputFile 1 : 
@@ -3196,11 +3382,11 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 48" internalid="4980">
+ <testcase name="INPUT SXGAPLus" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
 	InputFile 1 : 
@@ -3264,11 +3450,11 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 49" internalid="4980">
+ <testcase name="INPUT UXGA" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
 	InputFile 1 : 
@@ -3332,11 +3518,11 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 50" internalid="4980">
+ <testcase name="INPUT 1080P" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
 	InputFile 1 : 
@@ -3400,11 +3586,11 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 51" internalid="4980">
+ <testcase name="INPUT WQXGA" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
 	InputFile 1 : 
@@ -3468,11 +3654,11 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 52" internalid="4980">
+ <testcase name="INPUT QUXGA" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
 	InputFile 1 : 
@@ -3536,11 +3722,11 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 53" internalid="4980">
+ <testcase name="INPUT QUXGA_W" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
 	InputFile 1 : 
@@ -3604,11 +3790,11 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 54" internalid="4980">
+ <testcase name="HEADER APP0 NO UNITS" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
 	InputFile 1 : 
@@ -3672,11 +3858,11 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 55" internalid="4980">
+ <testcase name="HEADER APP0 DOTS PER INCH" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
 	InputFile 1 : 
@@ -3740,11 +3926,11 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 56" internalid="4980">
+ <testcase name="INPUT DOTS PER CM" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
 	InputFile 1 : 
@@ -3808,11 +3994,11 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 57" internalid="4980">
+ <testcase name="HEADER DQT DHT SINGLE MARKER" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
 	InputFile 1 : 
@@ -3876,11 +4062,11 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 58" internalid="4980">
+ <testcase name="HEADER DQT DHT MULTI MARKER" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
 	InputFile 1 : 
@@ -3944,11 +4130,11 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 59" internalid="4980">
+ <testcase name="HEADER THUMBNAIL JEPG" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
 	InputFile 1 : 
@@ -4012,11 +4198,11 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 60" internalid="4980">
+ <testcase name="HEADER THUMBNAIL PALETTE RGB8" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
 	InputFile 1 : 
@@ -4080,11 +4266,11 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 61" internalid="4980">
+ <testcase name="HEADER THUMBNAIL RGB24" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
 	InputFile 1 : 
@@ -4148,11 +4334,11 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 62" internalid="4980">
+ <testcase name="ENCODING WHOLE FRAME" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
 	InputFile 1 : 
@@ -4216,11 +4402,11 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 63" internalid="4980">
+ <testcase name="ENCODING SLICE FRAME" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
 	InputFile 1 : 
@@ -4284,11 +4470,11 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 64" internalid="4980">
+ <testcase name="ENCODING JPEG 420 MODE" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
 	InputFile 1 : 
@@ -4352,11 +4538,11 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 65" internalid="4980">
+ <testcase name="ENCODING JPEG 422 MODE" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
 	InputFile 1 : 
@@ -4420,11 +4606,11 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 66" internalid="4980">
+ <testcase name="INPUT ISP 1" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
 	InputFile 1 : 
@@ -4488,11 +4674,11 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 67" internalid="4980">
+ <testcase name="INPUT ISP 2" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
 	InputFile 1 : 
@@ -4556,11 +4742,11 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 68" internalid="4980">
+ <testcase name="INPUT ISP 3" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
 	InputFile 1 : 
@@ -4624,11 +4810,11 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 69" internalid="4980">
+ <testcase name="INPUT ISP 4" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
 	InputFile 1 : 
@@ -4692,11 +4878,11 @@
    </step>
   </steps>
  </testcase>
- <testcase name="CASE 70" internalid="4980">
+ <testcase name="PERFORMANCE" internalid="4980">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	VP8解码测试
+	JPEG编码测试
 </p>
 <p>
 	InputFile 1 : 
