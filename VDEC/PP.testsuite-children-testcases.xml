@@ -2,7 +2,6 @@
 <testcases>
 <testcase internalid="363" name="INPUT FROMAT 420P">
 	<node_order><![CDATA[0]]></node_order>
-	<externalid><![CDATA[24]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试420P作为视频输入格式</p>
@@ -71,7 +70,6 @@
 
 <testcase internalid="366" name="INPUT FROMAT 420T">
 	<node_order><![CDATA[1]]></node_order>
-	<externalid><![CDATA[25]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试420T作为视频输入格式</p>
@@ -99,7 +97,6 @@
 
 <testcase internalid="369" name="INPUT FROMAT 420SP">
 	<node_order><![CDATA[2]]></node_order>
-	<externalid><![CDATA[26]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试420SP作为视频输入格式</p>
@@ -125,7 +122,6 @@
 
 <testcase internalid="372" name="INPUT FROMAT 420YUYV">
 	<node_order><![CDATA[3]]></node_order>
-	<externalid><![CDATA[27]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试420YUYV作为视频输入格式</p>
@@ -155,7 +151,6 @@
 
 <testcase internalid="375" name="INPUT FROMAT 422UYVY">
 	<node_order><![CDATA[4]]></node_order>
-	<externalid><![CDATA[28]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试422UYVY作为视频输入格式</p>
@@ -185,7 +180,6 @@
 
 <testcase internalid="378" name="INPUT FROMAT 422YVYU">
 	<node_order><![CDATA[5]]></node_order>
-	<externalid><![CDATA[29]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试422YVYU作为视频输入格式</p>
@@ -215,7 +209,6 @@
 
 <testcase internalid="381" name="INPUT FROMAT 422VYUY">
 	<node_order><![CDATA[6]]></node_order>
-	<externalid><![CDATA[30]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试422VYUY作为视频输入格式</p>
@@ -245,7 +238,6 @@
 
 <testcase internalid="384" name="INPUT FROMAT 420SP_FIELD">
 	<node_order><![CDATA[7]]></node_order>
-	<externalid><![CDATA[31]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试420SP_FIELD作为视频输入格式</p>
@@ -275,7 +267,6 @@
 
 <testcase internalid="387" name="INPUT FROMAT 420SP_FIELD_FRAME">
 	<node_order><![CDATA[8]]></node_order>
-	<externalid><![CDATA[32]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试420SP_FIELD_FRAME作为视频输入格式</p>
@@ -305,7 +296,6 @@
 
 <testcase internalid="390" name="INPUT FROMAT 422YUYV_FIELD">
 	<node_order><![CDATA[9]]></node_order>
-	<externalid><![CDATA[33]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试422YUYV_FIELD作为视频输入格式</p>
@@ -335,7 +325,6 @@
 
 <testcase internalid="393" name="INPUT FROMAT 422YUYV_FIELD_FRAME">
 	<node_order><![CDATA[10]]></node_order>
-	<externalid><![CDATA[34]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试422YUYV_FIELD_FRAME作为视频输入格式</p>
@@ -365,7 +354,6 @@
 
 <testcase internalid="404" name="CROP 1">
 	<node_order><![CDATA[11]]></node_order>
-	<externalid><![CDATA[71]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试图片Crop功能</p>
@@ -401,7 +389,6 @@
 
 <testcase internalid="418" name="CROP 2">
 	<node_order><![CDATA[12]]></node_order>
-	<externalid><![CDATA[76]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试图片Crop功能</p>
@@ -437,7 +424,6 @@
 
 <testcase internalid="415" name="CROP 3">
 	<node_order><![CDATA[13]]></node_order>
-	<externalid><![CDATA[75]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试图片Crop功能</p>
@@ -473,7 +459,6 @@
 
 <testcase internalid="410" name="CROP 4">
 	<node_order><![CDATA[14]]></node_order>
-	<externalid><![CDATA[73]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试图片Crop功能</p>
@@ -509,7 +494,6 @@
 
 <testcase internalid="407" name="CROP 5">
 	<node_order><![CDATA[15]]></node_order>
-	<externalid><![CDATA[72]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试图片Crop功能</p>
@@ -545,7 +529,6 @@
 
 <testcase internalid="447" name="ROTATION 90R">
 	<node_order><![CDATA[16]]></node_order>
-	<externalid><![CDATA[90]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试图片旋转功能</p>
@@ -579,7 +562,6 @@
 
 <testcase internalid="456" name="ROTATION 90L">
 	<node_order><![CDATA[17]]></node_order>
-	<externalid><![CDATA[93]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试图片旋转功能</p>
@@ -613,7 +595,6 @@
 
 <testcase internalid="453" name="ROTATION 180">
 	<node_order><![CDATA[18]]></node_order>
-	<externalid><![CDATA[92]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试图片旋转功能</p>
@@ -647,7 +628,6 @@
 
 <testcase internalid="450" name="ROTATION HOR FLIP">
 	<node_order><![CDATA[19]]></node_order>
-	<externalid><![CDATA[91]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试图片旋转功能</p>
@@ -681,7 +661,6 @@
 
 <testcase internalid="461" name="ROTATION VER FLIP">
 	<node_order><![CDATA[20]]></node_order>
-	<externalid><![CDATA[95]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试图片旋转功能</p>
@@ -715,7 +694,6 @@
 
 <testcase internalid="466" name="OUTPUT FROMAT YUV420SP">
 	<node_order><![CDATA[21]]></node_order>
-	<externalid><![CDATA[97]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试PP输出功能</p>
@@ -745,7 +723,6 @@
 
 <testcase internalid="481" name="OUTPUT FROMAT YUV420I">
 	<node_order><![CDATA[22]]></node_order>
-	<externalid><![CDATA[102]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试PP输出功能</p>
@@ -775,7 +752,6 @@
 
 <testcase internalid="478" name="OUTPUT FROMAT YUV420T">
 	<node_order><![CDATA[23]]></node_order>
-	<externalid><![CDATA[101]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试PP输出功能</p>
@@ -805,7 +781,6 @@
 
 <testcase internalid="475" name="OUTPUT FROMAT RGB32">
 	<node_order><![CDATA[24]]></node_order>
-	<externalid><![CDATA[100]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试PP输出功能</p>
@@ -835,7 +810,6 @@
 
 <testcase internalid="472" name="OUTPUT FROMAT BGR32">
 	<node_order><![CDATA[25]]></node_order>
-	<externalid><![CDATA[99]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试PP输出功能</p>
@@ -865,7 +839,6 @@
 
 <testcase internalid="469" name="OUTPUT FROMAT RGB555">
 	<node_order><![CDATA[26]]></node_order>
-	<externalid><![CDATA[98]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试PP输出功能</p>
@@ -895,7 +868,6 @@
 
 <testcase internalid="487" name="OUTPUT FROMAT BGR555">
 	<node_order><![CDATA[27]]></node_order>
-	<externalid><![CDATA[104]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试PP输出功能</p>
@@ -925,7 +897,6 @@
 
 <testcase internalid="493" name="OUTPUT FROMAT RGB565">
 	<node_order><![CDATA[28]]></node_order>
-	<externalid><![CDATA[106]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试PP输出功能</p>
@@ -955,7 +926,6 @@
 
 <testcase internalid="484" name="OUTPUT FROMAT BGR565">
 	<node_order><![CDATA[29]]></node_order>
-	<externalid><![CDATA[103]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试PP输出功能</p>
@@ -985,7 +955,6 @@
 
 <testcase internalid="490" name="OUTPUT FROMAT RGB 32 CUSTOM  ABRG">
 	<node_order><![CDATA[30]]></node_order>
-	<externalid><![CDATA[105]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试PP输出功能</p>
@@ -1015,7 +984,6 @@
 
 <testcase internalid="496" name="OUTPUT FROMAT RGB 16 CUSTOM  ABRG">
 	<node_order><![CDATA[31]]></node_order>
-	<externalid><![CDATA[107]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试PP输出功能</p>
@@ -1045,7 +1013,6 @@
 
 <testcase internalid="499" name="OUTPUT FROMAT RGB CONTRAST 1">
 	<node_order><![CDATA[32]]></node_order>
-	<externalid><![CDATA[108]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试PP输出功能</p>
@@ -1075,7 +1042,6 @@
 
 <testcase internalid="502" name="OUTPUT FROMAT RGB CONTRAST 2">
 	<node_order><![CDATA[33]]></node_order>
-	<externalid><![CDATA[109]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试PP输出功能</p>
@@ -1105,7 +1071,6 @@
 
 <testcase internalid="505" name="OUTPUT FROMAT RGB CONTRAST 3">
 	<node_order><![CDATA[34]]></node_order>
-	<externalid><![CDATA[110]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试PP输出功能</p>
@@ -1135,7 +1100,6 @@
 
 <testcase internalid="508" name="OUTPUT FROMAT RGB CONTRAST 4">
 	<node_order><![CDATA[35]]></node_order>
-	<externalid><![CDATA[111]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试PP输出功能</p>
@@ -1165,7 +1129,6 @@
 
 <testcase internalid="511" name="OUTPUT FROMAT RGB CONTRAST 5">
 	<node_order><![CDATA[36]]></node_order>
-	<externalid><![CDATA[112]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试PP输出功能</p>
@@ -1195,7 +1158,6 @@
 
 <testcase internalid="520" name="OUTPUT FROMAT RGB BRIGHTNESS 1">
 	<node_order><![CDATA[37]]></node_order>
-	<externalid><![CDATA[114]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试PP输出功能</p>
@@ -1225,7 +1187,6 @@
 
 <testcase internalid="523" name="OUTPUT FROMAT RGB BRIGHTNESS 2">
 	<node_order><![CDATA[38]]></node_order>
-	<externalid><![CDATA[115]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试PP输出功能</p>
@@ -1255,7 +1216,6 @@
 
 <testcase internalid="526" name="OUTPUT FROMAT RGB BRIGHTNESS 3">
 	<node_order><![CDATA[39]]></node_order>
-	<externalid><![CDATA[116]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试PP输出功能</p>
@@ -1285,7 +1245,6 @@
 
 <testcase internalid="529" name="OUTPUT FROMAT RGB BRIGHTNESS 4">
 	<node_order><![CDATA[40]]></node_order>
-	<externalid><![CDATA[117]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试PP输出功能</p>
@@ -1315,7 +1274,6 @@
 
 <testcase internalid="532" name="OUTPUT FROMAT RGB BRIGHTNESS 5">
 	<node_order><![CDATA[41]]></node_order>
-	<externalid><![CDATA[118]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试PP输出功能</p>
@@ -1345,7 +1303,6 @@
 
 <testcase internalid="535" name="OUTPUT FROMAT RGB SATURATION 1 ">
 	<node_order><![CDATA[42]]></node_order>
-	<externalid><![CDATA[119]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试PP输出功能</p>
@@ -1375,7 +1332,6 @@
 
 <testcase internalid="538" name="OUTPUT FROMAT RGB SATURATION 2">
 	<node_order><![CDATA[43]]></node_order>
-	<externalid><![CDATA[120]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试PP输出功能</p>
@@ -1405,7 +1361,6 @@
 
 <testcase internalid="541" name="OUTPUT FROMAT RGB SATURATION 3">
 	<node_order><![CDATA[44]]></node_order>
-	<externalid><![CDATA[121]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试PP输出功能</p>
@@ -1435,7 +1390,6 @@
 
 <testcase internalid="544" name="OUTPUT FROMAT RGB SATURATION 4">
 	<node_order><![CDATA[45]]></node_order>
-	<externalid><![CDATA[122]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试PP输出功能</p>
@@ -1465,7 +1419,6 @@
 
 <testcase internalid="547" name="OUTPUT FROMAT RGB DETHERING">
 	<node_order><![CDATA[46]]></node_order>
-	<externalid><![CDATA[123]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试PP输出功能</p>
@@ -1495,7 +1448,6 @@
 
 <testcase internalid="550" name="SCALE ZOOMIN 1 ">
 	<node_order><![CDATA[47]]></node_order>
-	<externalid><![CDATA[124]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试PP输出功能</p>
@@ -1525,7 +1477,6 @@
 
 <testcase internalid="553" name="SCALE ZOOMIN 2">
 	<node_order><![CDATA[48]]></node_order>
-	<externalid><![CDATA[125]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试PP输出功能</p>
@@ -1555,7 +1506,6 @@
 
 <testcase internalid="556" name="SCALE ZOOMIN 3">
 	<node_order><![CDATA[49]]></node_order>
-	<externalid><![CDATA[126]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试PP输出功能</p>
@@ -1585,7 +1535,6 @@
 
 <testcase internalid="559" name="SCALE ZOOMIN 4">
 	<node_order><![CDATA[50]]></node_order>
-	<externalid><![CDATA[127]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试PP输出功能</p>
@@ -1615,7 +1564,6 @@
 
 <testcase internalid="562" name="SCALE ZOOM OUT 1">
 	<node_order><![CDATA[51]]></node_order>
-	<externalid><![CDATA[128]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试图形 缩小功能</p>
@@ -1649,7 +1597,6 @@
 
 <testcase internalid="565" name="SCALE ZOOM OUT 2">
 	<node_order><![CDATA[52]]></node_order>
-	<externalid><![CDATA[129]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试图形 缩小功能</p>
@@ -1683,7 +1630,6 @@
 
 <testcase internalid="568" name="SCALE ZOOM OUT 3">
 	<node_order><![CDATA[53]]></node_order>
-	<externalid><![CDATA[130]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试图形 缩小功能</p>
@@ -1717,7 +1663,6 @@
 
 <testcase internalid="574" name="SCALE ZOOM OUT 4">
 	<node_order><![CDATA[54]]></node_order>
-	<externalid><![CDATA[132]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	测试图形 缩小功能</p>
@@ -1751,7 +1696,6 @@
 
 <testcase internalid="571" name="MASK MSK 1 1">
 	<node_order><![CDATA[55]]></node_order>
-	<externalid><![CDATA[131]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	设置PP mask淹码参数</p>
@@ -1781,7 +1725,6 @@
 
 <testcase internalid="577" name="MASK MSK 1 2">
 	<node_order><![CDATA[56]]></node_order>
-	<externalid><![CDATA[133]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	设置PP mask淹码参数</p>
@@ -1811,7 +1754,6 @@
 
 <testcase internalid="580" name="MASK MSK 2 1">
 	<node_order><![CDATA[57]]></node_order>
-	<externalid><![CDATA[134]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	设置PP mask淹码参数</p>
@@ -1841,7 +1783,6 @@
 
 <testcase internalid="583" name="MASK MSK 2 2">
 	<node_order><![CDATA[58]]></node_order>
-	<externalid><![CDATA[135]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	设置PP mask淹码参数</p>
@@ -1871,7 +1812,6 @@
 
 <testcase internalid="589" name="MASK MSK1 MSK2 1">
 	<node_order><![CDATA[59]]></node_order>
-	<externalid><![CDATA[137]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	设置PP mask淹码参数</p>
@@ -1901,7 +1841,6 @@
 
 <testcase internalid="586" name="MASK MSK1 MSK2 2">
 	<node_order><![CDATA[60]]></node_order>
-	<externalid><![CDATA[136]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	设置PP mask淹码参数</p>
@@ -1931,7 +1870,6 @@
 
 <testcase internalid="592" name="OUTPUT TO FB">
 	<node_order><![CDATA[61]]></node_order>
-	<externalid><![CDATA[138]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
 	将解码数据直接输出到framebuffer</p>
