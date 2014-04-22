@@ -4167,7 +4167,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	H264编码测试
+	H264编码测试，使用PP对图像进行video stab测试
 </p>
 <p>
 	InputFile 1 : camstab_w104_h104_yuv420sp.yuv
@@ -4239,7 +4239,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	H264编码测试
+	H264编码测试，使用PP对图像进行切割测试
 </p>
 <p>
 	InputFile 1 : h264_w640_h480_testcase_preproc_format_rgb565.rgb
@@ -4311,7 +4311,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	H264编码测试
+	H264编码测试，对编码器ISP功能测试
 </p>
 <p>
 	InputFile 1 : isp_yuv420p_2592_1944.bin
@@ -4383,7 +4383,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	H264编码测试
+	H264编码测试，对编码器ISP功能的测试
 </p>
 <p>
 	InputFile 1 : isp_yuv420p_2592_1944.bin
@@ -4455,7 +4455,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	H264编码测试
+	H264编码性能测试
 </p>
 <p>
 	InputFile 1 : w640_h480_bgr565.rgb16
