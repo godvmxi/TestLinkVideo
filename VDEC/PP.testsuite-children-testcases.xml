@@ -1283,7 +1283,7 @@
 	<node_order><![CDATA[41]]></node_order>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
-	测试PP输出功能</p>
+	测试PP输出格式-> brightness 5 RGB</p>
 <p>
 	InputFile  1：pic_w640_h480_yuv420sp</p>
 <p>
@@ -1312,7 +1312,7 @@
 	<node_order><![CDATA[42]]></node_order>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
-	测试PP输出功能</p>
+	测试PP输出格式-> saturation 1 rgb</p>
 <p>
 	InputFile  1：pic_w640_h480_yuv420sp</p>
 <p>
@@ -1341,7 +1341,7 @@
 	<node_order><![CDATA[43]]></node_order>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
-	测试PP输出功能</p>
+	测试PP输出格式-> staturation 2 RGB</p>
 <p>
 	InputFile  1：pic_w640_h480_yuv420sp</p>
 <p>
@@ -1370,7 +1370,7 @@
 	<node_order><![CDATA[44]]></node_order>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
-	测试PP输出功能</p>
+	测试PP输出格式-> staturation 2 RGB</p>
 <p>
 	InputFile  1：pic_w640_h480_yuv420sp</p>
 <p>
@@ -1399,7 +1399,7 @@
 	<node_order><![CDATA[45]]></node_order>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
-	测试PP输出功能</p>
+	测试PP输出格式-> Saturation 4 RGB</p>
 <p>
 	InputFile  1：pic_w640_h480_yuv420sp</p>
 <p>
@@ -1428,7 +1428,7 @@
 	<node_order><![CDATA[46]]></node_order>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
-	测试PP输出功能</p>
+	测试PP输出格式-> Dethering RGB</p>
 <p>
 	InputFile  1：pic_w640_h480_yuv420sp</p>
 <p>
@@ -1457,7 +1457,7 @@
 	<node_order><![CDATA[47]]></node_order>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
-	测试PP输出功能</p>
+	测试PP输出放大</p>
 <p>
 	InputFile  1：pic_w640_h480_yuv420sp</p>
 <p>
@@ -1486,7 +1486,7 @@
 	<node_order><![CDATA[48]]></node_order>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
-	测试PP输出功能</p>
+	测试PP输出放大功能</p>
 <p>
 	InputFile  1：pic_w640_h480_yuv420sp</p>
 <p>
@@ -1515,7 +1515,7 @@
 	<node_order><![CDATA[49]]></node_order>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
-	测试PP输出功能</p>
+	测试PP输出放大功能</p>
 <p>
 	InputFile  1：pic_w640_h480_yuv420sp</p>
 <p>
@@ -1544,7 +1544,7 @@
 	<node_order><![CDATA[50]]></node_order>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>
-	测试PP输出功能</p>
+	测试PP输出放大功能</p>
 <p>
 	InputFile  1：pic_w640_h480_yuv420sp</p>
 <p>
