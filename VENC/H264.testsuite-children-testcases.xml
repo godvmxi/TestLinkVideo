@@ -2799,7 +2799,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	H264编码测试，使用PP进行图片处理
+	H264编码测试，使用PP进行图片尺寸处理
 </p>
 <p>
 	InputFile 1 : h264_w96_h96_testcase_preproc_size_yuv420sp.yuv
@@ -2871,7 +2871,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	H264编码测试，使用PP进行图片处理
+	H264编码测试，使用PP进行图片尺寸处理
 </p>
 <p>
 	InputFile 1 : h264_w96_h96_testcase_preproc_size_yuv420sp.yuv
@@ -2943,7 +2943,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	H264编码测试
+	H264编码测试，使用PP进行图片尺寸处理
 </p>
 <p>
 	InputFile 1 : h264_w96_h96_testcase_preproc_size_yuv420sp.yuv
@@ -3015,7 +3015,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	H264编码测试
+	H264编码测试，使用PP进行图片尺寸处理
 </p>
 <p>
 	InputFile 1 : h264_w96_h96_testcase_preproc_size_yuv420sp.yuv
@@ -3087,7 +3087,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	H264编码测试
+	H264编码测试，使用PP进行图片尺寸处理
 </p>
 <p>
 	InputFile 1 : h264_w96_h96_testcase_preproc_size_yuv420sp.yuv
