@@ -992,7 +992,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，输入数据源为---RGB555
 </p>
 <p>
 	InputFile 1 : jpeg_w800_h600_testcase_inputformat_rgb565.rgb
@@ -1058,7 +1058,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，输入数据源为---BGR565
 </p>
 <p>
 	InputFile 1 : jpeg_w480_h384_testcase_inputformat_bgr565.rgb
@@ -1124,7 +1124,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，输入数据源为---RGB555
 </p>
 <p>
 	InputFile 1 : jpeg_w1024_h576_testcase_inputformat_rgb555.rgb
@@ -1188,7 +1188,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，输入数据源为---BGR555
 </p>
 <p>
 	InputFile 1 : jpeg_w1024_h426_testcase_inputformat_bgr555.rgb
@@ -1256,7 +1256,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，输入数据源为---RGB444
 </p>
 <p>
 	InputFile 1 : jpeg_w1024_h576_testcase_inputformat_rgb444.rgb
@@ -1321,7 +1321,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，输入数据源为---BGR444
 </p>
 <p>
 	InputFile 1 : jpeg_w800_h600_testcase_inputformat_bgr444.rgb
@@ -1387,7 +1387,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，输入数据源为---RGB888
 </p>
 <p>
 	InputFile 1 : jpeg_w1024_h574_testcase_inputformat_rgb32.rgb
@@ -1452,7 +1452,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，输入数据源为---BGR888
 </p>
 <p>
 	InputFile 1 : jpeg_w1024_h426_testcase_inputformat_bgr32.rgb
@@ -1516,7 +1516,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，输入数据源为---RGB101010
 </p>
 <p>
 	InputFile 1 : jpeg_w1024_h576_testcase_inputformat_rgb101010.rgb
@@ -1582,7 +1582,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，输入数据源为---BGR101010
 </p>
 <p>
 	InputFile 1 : jpeg_w1024_h576_testcase_inputformat_bgr101010.rgb
@@ -1648,7 +1648,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，旋转测试 90L
 </p>
 <p>
 	InputFile 1 : jpeg_w640_h480_testcase_input_rotation.yuv
@@ -1713,7 +1713,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，旋转测试 90L
 </p>
 <p>
 	InputFile 1 : jpeg_w640_h480_testcase_input_rotation.yuv
@@ -1779,7 +1779,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，数据图片数据剪切测试
 </p>
 <p>
 	InputFile 1 : jpeg_w640_h480_testcase_input_cropping.yuv
@@ -1847,7 +1847,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，数据图片数据剪切测试
 </p>
 <p>
 	InputFile 1 : 
@@ -1915,7 +1915,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，数据图片数据剪切测试
 </p>
 <p>
 	InputFile 1 : jpeg_w640_h480_testcase_input_cropping.yuv
@@ -1981,7 +1981,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，数据图片数据剪切测试
 </p>
 <p>
 	InputFile 1 : jpeg_w640_h480_testcase_input_cropping.yuv
@@ -2047,7 +2047,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，数据图片数据剪切测试
 </p>
 <p>
 	InputFile 1 : jpeg_w640_h480_testcase_input_cropping.yuv
@@ -2112,7 +2112,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，最小输入图片测试
 </p>
 <p>
 	InputFile 1 : jpeg_w96_h32_testcase_inputsize_yuv420sp.yuv
@@ -2177,7 +2177,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试-最大输入图片测试
 </p>
 <p>
 	InputFile 1 : jpeg_w8192_h8192_testcase_inputsize_yuv420sp.yuv
@@ -2242,7 +2242,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，最大高度，最小宽度测试
 </p>
 <p>
 	InputFile 1 : 
@@ -2310,7 +2310,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，最大宽度，最小高度输入测试
 </p>
 <p>
 	InputFile 1 : 
@@ -2378,7 +2378,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，暂不支持
 </p>
 <p>
 	InputFile 1 : 
@@ -2446,7 +2446,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，暂不支持
 </p>
 <p>
 	InputFile 1 : 
@@ -2514,7 +2514,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，暂不支持
 </p>
 <p>
 	InputFile 1 : 
@@ -2582,7 +2582,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，
 </p>
 <p>
 	InputFile 1 : 
@@ -2650,7 +2650,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，输入格式sub qcif
 </p>
 <p>
 	InputFile 1 : jpeg_w128_h96_testcase_inputsize_yuv420sp.yuv
@@ -2714,7 +2714,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，输入格式QQVGA
 </p>
 <p>
 	InputFile 1 : jpeg_w160_h120_testcase_inputsize_yuv420sp.yuv
@@ -2779,7 +2779,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，输入格式QCIF
 </p>
 <p>
 	InputFile 1 : 
@@ -2847,7 +2847,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，输入格式QVGA
 </p>
 <p>
 	InputFile 1 : 
@@ -2915,7 +2915,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，输入格式cif
 </p>
 <p>
 	InputFile 1 : 
@@ -2983,7 +2983,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，输入格式VGA
 </p>
 <p>
 	InputFile 1 : jpeg_w640_h480_testcase_inputsize_rgb565.rgb
@@ -3049,7 +3049,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，输入格式PAL
 </p>
 <p>
 	InputFile 1 : 
@@ -3117,7 +3117,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，输入格式SVGA
 </p>
 <p>
 	InputFile 1 : 
@@ -3185,7 +3185,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，输入格式XVGA
 </p>
 <p>
 	InputFile 1 : 
@@ -3253,7 +3253,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，输入格式720P
 </p>
 <p>
 	InputFile 1 : jpeg_w1280_h720_testcase_inputsize_yuv420sp.yuv
@@ -3318,7 +3318,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，输入格式XSGA
 </p>
 <p>
 	InputFile 1 : 
@@ -3386,7 +3386,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，输入格式SXGAPLus
 </p>
 <p>
 	InputFile 1 : 
@@ -3454,7 +3454,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，输入格式UXGA
 </p>
 <p>
 	InputFile 1 : 
@@ -3522,7 +3522,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，输入格式1080P
 </p>
 <p>
 	InputFile 1 : 
@@ -3590,7 +3590,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，输入格式WQXGA
 </p>
 <p>
 	InputFile 1 : 
@@ -3658,7 +3658,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，输入格式QUXGA
 </p>
 <p>
 	InputFile 1 : 
@@ -3726,7 +3726,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，输入格式QUXGA——W
 </p>
 <p>
 	InputFile 1 : 
@@ -3794,7 +3794,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，文件头app0 no units
 </p>
 <p>
 	InputFile 1 : 
@@ -3862,7 +3862,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试,JPEG文件头APP0 header像素密度测试
 </p>
 <p>
 	InputFile 1 : 
@@ -3998,7 +3998,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试,JPEG HEADER DQT SINGLE MARKER 模式
 </p>
 <p>
 	InputFile 1 : 
@@ -4066,7 +4066,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，JPEG HEADER DQT MULTI MARKER 模式
 </p>
 <p>
 	InputFile 1 : 
@@ -4076,6 +4076,78 @@
 </p>
 <p>
 	OutputFile 1:
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="HEADER COMMENT" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	JPEG编码测试，缩略图添加注释
+</p>
+<p>
+	InputFile 1 : jpeg_w640_h480_testcase_header_comment.yuv
+</p>
+<p>
+	InputFile 2 : jpeg_comment_header_file.txt
+</p>
+
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:jpeg_w640_h480_testcase_comment_header.jpeg
 </p>
 <p>
 	OutputFile 2:
@@ -4134,19 +4206,19 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，JPEG文件头包含缩略图测试,缩略图来源JPEG
 </p>
 <p>
-	InputFile 1 : 
+	InputFile 1 : jpeg_w640_h480_testcase_header_thumbnail.yuv
+</p>
+<p>
+	InputFile 2 : jpeg_w120_h96_testcase_jpeg_thumbnail.jpeg
 </p>
 
 	InputDetail : 
 </p>
 <p>
-	OutputFile 1:
-</p>
-<p>
-	OutputFile 2:
+	OutputFile 1:jpeg_w640_h480_testcase_jpeg_thumbnail_header.jpeg
 </p>
 
 ]]></summary>
@@ -4202,22 +4274,20 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，JPEG文件头包含缩略图测试,缩略图来源RGB8
 </p>
 <p>
-	InputFile 1 : 
+	InputFile 1 : jpeg_w640_h480_testcase_header_thumbnail.yuv
+</p>
+<p>
+	InputFile 2 :jpeg_w120_h96_testcase_rgb24_thumbnal.rgb
 </p>
 
 	InputDetail : 
 </p>
 <p>
-	OutputFile 1:
-</p>
-<p>
-	OutputFile 2:
-</p>
-
-]]></summary>
+	OutputFile 1:jpeg_w640_h480_testcase_jpeg_thumbnail_header.jpeg
+</p>]]></summary>
   <preconditions><![CDATA[]]></preconditions>
   <execution_type><![CDATA[1]]></execution_type>
   <importance><![CDATA[2]]></importance>
@@ -4270,16 +4340,19 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，缩略图来源格式为RGB24
 </p>
 <p>
-	InputFile 1 : 
+	InputFile 1 : jpeg_w640_h480_testcase_header_thumbnail.yuv
+</p>
+<p>
+	InputFile 2 : jpeg_w120_h96_testcase_rgb24_thumbnal.rgb
 </p>
 
 	InputDetail : 
 </p>
 <p>
-	OutputFile 1:
+	OutputFile 1:jpeg_w640_h480_testcase_rgb24_thumbnail_header.jpeg
 </p>
 <p>
 	OutputFile 2:
@@ -4338,20 +4411,18 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，whole frame编码方式
 </p>
 <p>
-	InputFile 1 : 
+	InputFile 1 : jpeg_w800_h600_testcase_codingtype_rgb565.rgb
 </p>
 
 	InputDetail : 
 </p>
 <p>
-	OutputFile 1:
+	OutputFile 1:jpeg_w800_h600_testcase_codingtype_wholeframe_rgb565.jpeg
 </p>
-<p>
-	OutputFile 2:
-</p>
+
 
 ]]></summary>
   <preconditions><![CDATA[]]></preconditions>
@@ -4406,19 +4477,16 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试,Slice Frame 编码模式
 </p>
 <p>
-	InputFile 1 : 
+	InputFile 1 : jpeg_w800_h600_testcase_codingtype_rgb565.rgb
 </p>
 
 	InputDetail : 
 </p>
 <p>
-	OutputFile 1:
-</p>
-<p>
-	OutputFile 2:
+	OutputFile 1:jpeg_w800_h600_testcase_codingtype_sliceframe_rgb565.jpeg
 </p>
 
 ]]></summary>
@@ -4610,16 +4678,16 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，ISP模式测试
 </p>
 <p>
-	InputFile 1 : 
+	InputFile 1 : dma_rgb565_640_480_frm7.bin
 </p>
 
 	InputDetail : 
 </p>
 <p>
-	OutputFile 1:
+	OutputFile 1:dma_rgb565_640_480_frm7.jpeg
 </p>
 <p>
 	OutputFile 2:
@@ -4678,16 +4746,16 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，ISP模式测试
 </p>
 <p>
-	InputFile 1 : 
+	InputFile 1 : dma_rgb565_1280_960_frm4.bin
 </p>
 
 	InputDetail : 
 </p>
 <p>
-	OutputFile 1:
+	OutputFile 1:dma_rgb565_1280_960_frm4.jpeg
 </p>
 <p>
 	OutputFile 2:
@@ -4746,16 +4814,16 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试,ISP模式下不同分辨率的图片测试
 </p>
 <p>
-	InputFile 1 : 
+	InputFile 1 : dma_uyvy422_1280_960_frm3.bin
 </p>
 
 	InputDetail : 
 </p>
 <p>
-	OutputFile 1:
+	OutputFile 1:dma_uyvy422_1280_960_frm3.jpeg
 </p>
 <p>
 	OutputFile 2:
@@ -4814,16 +4882,490 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试,ISP模式下不同分辨率的图片测试
 </p>
 <p>
-	InputFile 1 : 
+	InputFile 1 : dma_uyvy_2592_1944_frm1.bin
 </p>
 
 	InputDetail : 
 </p>
 <p>
-	OutputFile 1:
+	OutputFile 1:dma_uyvy_2592_1944_frm1.jpeg
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="INPUT ISP 5" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	JPEG编码测试,ISP模式下不同分辨率的图片测试
+</p>
+<p>
+	InputFile 1 : dma_yuyv_1280_960_frm5.bin
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1:dma_yuyv_1280_960_frm5.jpeg
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="INPUT ISP 6" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	JPEG编码测试,ISP模式下不同分辨率的图片测试
+</p>
+<p>
+	InputFile 1 : dma_yuyv_2592_1944_frm1.bin
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1: dma_yuyv_2592_1944_frm1.jpeg
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="INPUT ISP 7" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	JPEG编码测试,ISP模式下不同分辨率的图片测试
+</p>
+<p>
+	InputFile 1 : isp_rgb888_640_480_frm3.bin
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1: isp_rgb888_640_480_frm3.jpeg
+</p>
+
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="INPUT ISP 8" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	JPEG编码测试,ISP模式下不同分辨率的图片测试
+</p>
+<p>
+	InputFile 1 : isp_yuv420p_2592_1944_frm1.bin
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1: isp_yuv420p_2592_1944_frm1.jpeg
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="INPUT ISP 9" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	JPEG编码测试,ISP模式下不同分辨率的图片测试
+</p>
+<p>
+	InputFile 1 : isp_yuv420sp_2592_1944.bin
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1: isp_yuv420sp_2592_1944.jpeg
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="INPUT ISP 10" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	JPEG编码测试,ISP模式下不同分辨率的图片测试
+</p>
+<p>
+	InputFile 1 : isp_yuv420p_640_480.bin
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1: isp_yuv420p_640_480.jpeg
+</p>
+<p>
+	OutputFile 2:
+</p>
+
+]]></summary>
+  <preconditions><![CDATA[]]></preconditions>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>
+	使用DS5对vdec下边的代码进行编译（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>
+	使用测试板子载入编译出来的二进制AXF文件，运行测试（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[<p>
+	使用代码目录下的collect_report.py 脚本，生成执行报告vdec_jpeg_report.txt（整个JPEG case只需执行一次）。</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[<p>
+	搜索报告文件中与OutputFile一致的文件，查看报告结果</p>
+<p>
+	&nbsp;</p>
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase>
+ <testcase name="INPUT ISP 11" internalid="4980">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[<p>
+	JPEG编码测试,ISP模式下不同分辨率的图片测试
+</p>
+<p>
+	InputFile 1 : isp_yuv420p_2592_1944.bin
+</p>
+
+	InputDetail : 
+</p>
+<p>
+	OutputFile 1: isp_yuv420p_2592_1944.jpeg
 </p>
 <p>
 	OutputFile 2:
@@ -4882,16 +5424,16 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，性能测试
 </p>
 <p>
-	InputFile 1 : 
+	InputFile 1 : jpeg_w640_h480_testcase_inputformat_yuv420p.yuv
 </p>
 
 	InputDetail : 
 </p>
 <p>
-	OutputFile 1:
+	OutputFile 1:jpeg_w1920_h1080_testcase_performance.jpeg
 </p>
 <p>
 	OutputFile 2:
