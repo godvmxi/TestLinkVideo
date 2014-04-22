@@ -4,7 +4,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试,使用QLEVEL L0 进行编码测试
 </p>
 <p>
 	InputFile 1 : jpeg_w240_h240_testcase_qlevel.yuvsp
@@ -72,7 +72,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试,使用QLEVEL L1 进行编码测试
 </p>
 <p>
 	InputFile 1 : jpeg_w240_h240_testcase_qlevel.yuvsp
@@ -137,7 +137,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试,使用QLEVEL L2 进行编码测试
 </p>
 <p>
 	InputFile 1 : jpeg_w240_h240_testcase_qlevel.yuvsp
@@ -202,7 +202,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试,使用QLEVEL L3 进行编码测试
 </p>
 <p>
 	InputFile 1 : jpeg_w240_h240_testcase_qlevel.yuvsp
@@ -266,7 +266,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试,使用QLEVEL L4 进行编码测试
 </p>
 <p>
 	InputFile 1 : jpeg_w240_h240_testcase_qlevel.yuvsp
@@ -331,7 +331,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试,使用QLEVEL L5 进行编码测试
 </p>
 <p>
 	InputFile 1 : jpeg_w240_h240_testcase_qlevel.yuvsp
@@ -399,7 +399,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试,使用QLEVEL L6 进行编码测试
 </p>
 <p>
 	InputFile 1 : jpeg_w240_h240_testcase_qlevel.yuvsp
@@ -464,7 +464,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试,使用QLEVEL L7 进行编码测试
 </p>
 <p>
 	InputFile 1 : jpeg_w240_h240_testcase_qlevel.yuvsp
@@ -529,7 +529,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试,使用QLEVEL L8 进行编码测试
 </p>
 <p>
 	InputFile 1 : jpeg_w240_h240_testcase_qlevel.yuvsp
@@ -595,7 +595,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试,使用QLEVEL L9 进行编码测试
 </p>
 <p>
 	InputFile 1 : jpeg_w240_h240_testcase_qlevel.yuvsp
@@ -660,7 +660,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试,使用QLEVEL L10 进行编码测试
 </p>
 <p>
 	InputFile 1 : jpeg_w240_h240_testcase_qlevel.yuvsp
@@ -726,7 +726,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，输入数据源为---YUV420P
 </p>
 <p>
 	InputFile 1 : jpeg_w640_h480_testcase_inputformat_yuv420p.yuv
@@ -794,7 +794,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，输入数据源为---420SP
 </p>
 <p>
 	InputFile 1 : jpeg_w240_h240_testcase_inputformat_yuv420sp.yuv
@@ -860,7 +860,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，输入数据源为---YUV422 INTERLEAVEDＹＵＹＶ
 </p>
 <p>
 	InputFile 1 : jpeg_w640_h480_testcase_inputformat_yuyv422.yuv
@@ -926,7 +926,7 @@
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[<p>
-	JPEG编码测试
+	JPEG编码测试，输入数据源为---YUV422 INTERLEAVED UYVY
 </p>
 <p>
 	InputFile 1 : jpeg_w1024_h426_testcase_inputformat_uyvy422.yuv
