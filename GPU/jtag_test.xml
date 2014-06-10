@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?><testcases><testcase internalid="4980" name="emeta_jtag_status_reg
+">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[Bonnie Gpu 测试case]]></summary>
+  <preconditions/>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>第一次执行gpu命令或者更新gpu 配置文件，需要先初始化gpu资源：</p>
+<p>$(resource)/data/tools/gpu/gpu_init_resource.py</p>
+<p>确保所需资源有效,资源位置：</p>
+<p>$(resource)/data/gpu/bonnie/$(case suite)/$(case item)/out/binlitescript.bin</p>]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>输入命令：</p>
+<p>gpu | bitlite script位置</p>
+
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[查看串口输出结果，检查结果]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[多次执行命令后，使用资源目录下的$(resource)/tools/gpu/generate_report.py生成测试结果]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase><testcase internalid="4980" name="eimg_jtag_idcode_bypass_pnp
+">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[Bonnie Gpu 测试case]]></summary>
+  <preconditions/>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>第一次执行gpu命令或者更新gpu 配置文件，需要先初始化gpu资源：</p>
+<p>$(resource)/data/tools/gpu/gpu_init_resource.py</p>
+<p>确保所需资源有效,资源位置：</p>
+<p>$(resource)/data/gpu/bonnie/$(case suite)/$(case item)/out/binlitescript.bin</p>]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>输入命令：</p>
+<p>gpu | bitlite script位置</p>
+
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[查看串口输出结果，检查结果]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[多次执行命令后，使用资源目录下的$(resource)/tools/gpu/generate_report.py生成测试结果]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase><testcase internalid="4980" name="emeta_jtag_mode_reg
+">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[Bonnie Gpu 测试case]]></summary>
+  <preconditions/>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>第一次执行gpu命令或者更新gpu 配置文件，需要先初始化gpu资源：</p>
+<p>$(resource)/data/tools/gpu/gpu_init_resource.py</p>
+<p>确保所需资源有效,资源位置：</p>
+<p>$(resource)/data/gpu/bonnie/$(case suite)/$(case item)/out/binlitescript.bin</p>]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>输入命令：</p>
+<p>gpu | bitlite script位置</p>
+
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[查看串口输出结果，检查结果]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[多次执行命令后，使用资源目录下的$(resource)/tools/gpu/generate_report.py生成测试结果]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase><testcase internalid="4980" name="emeta_jtag_integration1
+">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[Bonnie Gpu 测试case]]></summary>
+  <preconditions/>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>第一次执行gpu命令或者更新gpu 配置文件，需要先初始化gpu资源：</p>
+<p>$(resource)/data/tools/gpu/gpu_init_resource.py</p>
+<p>确保所需资源有效,资源位置：</p>
+<p>$(resource)/data/gpu/bonnie/$(case suite)/$(case item)/out/binlitescript.bin</p>]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>输入命令：</p>
+<p>gpu | bitlite script位置</p>
+
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[查看串口输出结果，检查结果]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[多次执行命令后，使用资源目录下的$(resource)/tools/gpu/generate_report.py生成测试结果]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase><testcase internalid="4980" name="emeta_jtag_code_execution
+">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[Bonnie Gpu 测试case]]></summary>
+  <preconditions/>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>第一次执行gpu命令或者更新gpu 配置文件，需要先初始化gpu资源：</p>
+<p>$(resource)/data/tools/gpu/gpu_init_resource.py</p>
+<p>确保所需资源有效,资源位置：</p>
+<p>$(resource)/data/gpu/bonnie/$(case suite)/$(case item)/out/binlitescript.bin</p>]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>输入命令：</p>
+<p>gpu | bitlite script位置</p>
+
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[查看串口输出结果，检查结果]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[多次执行命令后，使用资源目录下的$(resource)/tools/gpu/generate_report.py生成测试结果]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase><testcase internalid="4980" name="emeta_jtag_attention
+">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[Bonnie Gpu 测试case]]></summary>
+  <preconditions/>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>第一次执行gpu命令或者更新gpu 配置文件，需要先初始化gpu资源：</p>
+<p>$(resource)/data/tools/gpu/gpu_init_resource.py</p>
+<p>确保所需资源有效,资源位置：</p>
+<p>$(resource)/data/gpu/bonnie/$(case suite)/$(case item)/out/binlitescript.bin</p>]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>输入命令：</p>
+<p>gpu | bitlite script位置</p>
+
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[查看串口输出结果，检查结果]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[多次执行命令后，使用资源目录下的$(resource)/tools/gpu/generate_report.py生成测试结果]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase><testcase internalid="4980" name="emeta_jtag_reset
+">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[Bonnie Gpu 测试case]]></summary>
+  <preconditions/>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>第一次执行gpu命令或者更新gpu 配置文件，需要先初始化gpu资源：</p>
+<p>$(resource)/data/tools/gpu/gpu_init_resource.py</p>
+<p>确保所需资源有效,资源位置：</p>
+<p>$(resource)/data/gpu/bonnie/$(case suite)/$(case item)/out/binlitescript.bin</p>]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>输入命令：</p>
+<p>gpu | bitlite script位置</p>
+
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[查看串口输出结果，检查结果]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[多次执行命令后，使用资源目录下的$(resource)/tools/gpu/generate_report.py生成测试结果]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase><testcase internalid="4980" name="emeta_jtag_fst
+">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[Bonnie Gpu 测试case]]></summary>
+  <preconditions/>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>第一次执行gpu命令或者更新gpu 配置文件，需要先初始化gpu资源：</p>
+<p>$(resource)/data/tools/gpu/gpu_init_resource.py</p>
+<p>确保所需资源有效,资源位置：</p>
+<p>$(resource)/data/gpu/bonnie/$(case suite)/$(case item)/out/binlitescript.bin</p>]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>输入命令：</p>
+<p>gpu | bitlite script位置</p>
+
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[查看串口输出结果，检查结果]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[多次执行命令后，使用资源目录下的$(resource)/tools/gpu/generate_report.py生成测试结果]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase><testcase internalid="4980" name="emeta_jtag_control_reg
+">
+  <node_order><![CDATA[43]]></node_order>
+  <version><![CDATA[1]]></version>
+  <summary><![CDATA[Bonnie Gpu 测试case]]></summary>
+  <preconditions/>
+  <execution_type><![CDATA[1]]></execution_type>
+  <importance><![CDATA[2]]></importance>
+  <steps>
+   <step>
+    <step_number><![CDATA[1]]></step_number>
+    <actions><![CDATA[<p>第一次执行gpu命令或者更新gpu 配置文件，需要先初始化gpu资源：</p>
+<p>$(resource)/data/tools/gpu/gpu_init_resource.py</p>
+<p>确保所需资源有效,资源位置：</p>
+<p>$(resource)/data/gpu/bonnie/$(case suite)/$(case item)/out/binlitescript.bin</p>]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[2]]></step_number>
+    <actions><![CDATA[<p>输入命令：</p>
+<p>gpu | bitlite script位置</p>
+
+]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[3]]></step_number>
+    <actions><![CDATA[查看串口输出结果，检查结果]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+   <step>
+    <step_number><![CDATA[4]]></step_number>
+    <actions><![CDATA[多次执行命令后，使用资源目录下的$(resource)/tools/gpu/generate_report.py生成测试结果]]></actions>
+    <expectedresults><![CDATA[<p>
+	PASS</p>
+]]></expectedresults>
+    <execution_type><![CDATA[1]]></execution_type>
+   </step>
+  </steps>
+ </testcase></testcases>

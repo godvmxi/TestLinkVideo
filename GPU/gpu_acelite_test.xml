@@ -1,4 +1,5 @@
- <testcase name="gpu--> 6" internalid="4980">
+<?xml version="1.0" encoding="utf-8"?><testcases><testcase internalid="4980" name="acelite
+">
   <node_order><![CDATA[43]]></node_order>
   <version><![CDATA[1]]></version>
   <summary><![CDATA[Bonnie Gpu 测试case]]></summary>
@@ -45,5 +46,4 @@
     <execution_type><![CDATA[1]]></execution_type>
    </step>
   </steps>
- </testcase>
-
+ </testcase></testcases>
